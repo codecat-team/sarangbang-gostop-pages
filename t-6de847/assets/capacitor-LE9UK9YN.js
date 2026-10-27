@@ -1,1 +1,0 @@
-export{t as capacitorPlatform}from"./capacitor-CO8N51SC.js";
