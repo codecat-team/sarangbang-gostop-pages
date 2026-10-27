@@ -1,0 +1,40 @@
+Background photos in this folder (B28 "decorate the room" backgrounds)
+
+These photos are shown only behind the start and result screens, never under the cards.
+Changes by codecat (all three files): downscaled to 1920 px wide and re-saved as JPEG
+(quality 80, mozjpeg); camera metadata (EXIF, incl. GPS) removed. The picture itself is
+not cropped, retouched or recoloured. At run time the game darkens and blurs the photo;
+that overlay is not part of these files.
+
+1. sarangbang.jpg  (1920x1274)
+   Title: Sarangbang British Museum room 67 n02.jpg
+          (reconstruction of a traditional Korean sarangbang, British Museum, room 67)
+   Photo: © Marie-Lan Nguyen / Wikimedia Commons, 2012-02-11
+   Source: https://commons.wikimedia.org/wiki/File:Sarangbang_British_Museum_room_67_n02.jpg
+   License: Creative Commons Attribution 2.5 Generic (CC BY 2.5)
+            https://creativecommons.org/licenses/by/2.5/
+
+2. sarangchae.jpg  (1920x1440)
+   Title: 이장우가옥 사랑채.jpg (sarangchae of the Lee Jang-u House)
+   Photo: Kimge2020 / Wikimedia Commons, 2025-06-27
+   Source: https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EC%9E%A5%EC%9A%B0%EA%B0%80%EC%98%A5_%EC%82%AC%EB%9E%91%EC%B1%84.jpg
+   License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+            https://creativecommons.org/licenses/by/4.0/
+   Provided "as is" by the licensor, without warranties (CC BY 4.0 section 5).
+
+3. daecheong.jpg  (1920x1280)
+   Title: 구례 운조루 고택_안채 대청마루 (촬영년도 : 2015년)
+          (main hall floor of the inner quarters, Unjoru House, Gurye)
+   Author: 문화재청 (Cultural Heritage Administration, now 국가유산청 Korea Heritage Service), 2015-11-09
+   Source: 국가유산포털 (Korea Heritage Portal)
+           https://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=18,00080000,36&pageNo=1_1_2_0
+           (photo ID 6321492; the same file is on Wikimedia Commons)
+   License: 공공누리 제1유형 (Korea Open Government License Type 1: attribution)
+            https://www.kogl.or.kr/info/licenseType1.do
+   Attribution: 이 저작물은 문화재청(현 국가유산청)이 2015년 촬영하여 공공누리 제1유형으로
+   개방한 '구례 운조루 고택_안채 대청마루'를 이용하였으며, 해당 저작물은
+   국가유산포털(www.heritage.go.kr)에서 무료로 내려받을 수 있습니다.
+   Use of this photo does not mean that the Korea Heritage Service endorses or sponsors this app.
+
+The licenses above cover only these three photo files. The game code that displays
+them is a separate work. Details: docs/LICENSES.md (③-2).

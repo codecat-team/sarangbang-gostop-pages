@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>사랑방 고스톱 — 큰 글씨, 누르기만 하면 되는 고스톱</title>
+<meta name="description" content="글씨가 크고 누르기만 하면 되는 쉬운 고스톱·맞고. 어르신도 가족과 함께 편하게. 웹판은 광고도 가입도 없어요.">
+<link rel="icon" href="landing/icon.png">
+<!-- 소개 한 장(공개 저장소 첫 화면). 바깥 글꼴·스크립트·추적 없음. 그림은 landing/ (스토어 스크린샷 재사용). 시안: docs/design/landing.md.
+     [PC에서 바로 하기]는 ./play/ (웹판) — pages-bundle 이 웹판을 /play/ 로 내보낼 때만 맞다(landing.md 3절). Play 주소는 출시 뒤 [기찬행님] 칸 — 그때 .btns 안에 검은 알약 단추(<a class="btn main">)로 넣고 아래 .note 의 폰 앱 줄을 뺀다. -->
+<style>
+:root{--ink:#1c1c1e;--sub:#3a1f00;--orange:#ff9f0a;--cream:#fff6e8;--green:#1f4a35}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;background:#2a1a08}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;font-size:19px;line-height:1.7;word-break:keep-all}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+.hero{background:linear-gradient(180deg,#ffb547,#f08a00);padding:40px 0 56px}
+.brand{display:flex;align-items:center;gap:16px}
+.brand img{width:72px;height:72px;border-radius:18px;box-shadow:0 6px 14px rgba(90,42,0,.35)}
+.brand span{font-family:"AppleMyungjo","Noto Serif KR",serif;font-weight:900;font-size:30px}
+h1{margin:28px 0 12px;font-size:clamp(34px,6.4vw,56px);line-height:1.25;font-weight:900}
+.lead{margin:0 0 28px;font-size:clamp(20px,3.2vw,26px);color:var(--sub);font-weight:700}
+.btns{display:flex;flex-wrap:wrap;gap:14px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:64px;padding:0 30px;border-radius:32px;font-size:22px;font-weight:900;text-decoration:none}
+.btn.main{background:var(--ink);color:#fff;box-shadow:0 8px 16px rgba(90,42,0,.35)}
+.btn.main:focus-visible,.btn.main:hover{outline:4px solid #fff;outline-offset:3px}
+.note{margin:14px 0 0;font-size:17px;color:var(--sub)}
+section{padding:48px 0 8px}
+h2{margin:0 0 20px;font-size:clamp(26px,4.4vw,34px);font-weight:900}
+.cards{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin:0;padding:0;list-style:none}
+.cards li{background:#fff;border-radius:22px;padding:22px 24px;box-shadow:0 6px 16px rgba(90,42,0,.12)}
+.cards b{display:block;font-size:23px;margin-bottom:4px}
+.shots{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin:8px 0 0}
+.shots figure{margin:0}
+.shots img{display:block;width:100%;height:auto;border-radius:22px;box-shadow:0 10px 22px rgba(90,42,0,.3)}
+.shots figcaption{margin-top:10px;text-align:center;font-size:18px;font-weight:700}
+.safe{background:var(--green);color:#fff;border-radius:26px;padding:28px 28px;margin-top:8px}
+.safe h2{margin-bottom:12px}
+.safe ul{margin:0;padding-left:1.2em}
+footer{margin-top:56px;padding:28px 0 48px;background:#2a1a08;color:#ffe9c9;font-size:17px}
+footer a{font-weight:700}
+footer .links{display:flex;flex-wrap:wrap;gap:6px 24px;margin-bottom:14px;font-size:19px}
+footer small{display:block;color:#d9bf9a;line-height:1.6}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <div class="brand"><img src="landing/icon.png" alt="사랑방 고스톱 앱 아이콘"><span>사랑방 고스톱</span></div>
+  <h1>글씨가 큼직해서<br>누르기만 하면 돼요</h1>
+  <p class="lead">작은 글씨 때문에 화투 게임을 못 하셨던 분도,<br>가족과 함께 편하게 치는 고스톱이에요.</p>
+  <div class="btns">
+    <a class="btn main" href="play/">PC에서 바로 하기</a>
+  </div>
+  <p class="note">PC 웹판은 설치도 가입도 없이 바로 열려요.<br>폰 앱은 곧 구글 플레이에 나와요(안드로이드부터).</p>
+</div></header>
+
+<main class="wrap">
+  <section aria-labelledby="easy">
+    <h2 id="easy">이래서 쉬워요</h2>
+    <ul class="cards">
+      <li><b>글씨가 큼직해요</b>카드마다 월 숫자와 종류(광·열끗·띠·피)가 큼직하게 적혀 있어요. 설정에서 글자를 더 크게 할 수도 있어요.</li>
+      <li><b>누르기만 하면 돼요</b>낼 수 있는 패는 반짝여서 알려 줘요. 끌어다 놓을 필요 없이 한 번만 누르세요.</li>
+      <li><b>점수는 알아서 셈해요</b>고·스톱, 흔들기·폭탄은 먼저 물어봐요. 피박·광박·고박 계산은 알아서 해 드려요.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="look">
+    <h2 id="look">이렇게 생겼어요</h2>
+    <div class="shots">
+      <figure><img src="landing/shot-1.jpg" alt="판 화면: 큼직한 카드와 반짝이는 낼 수 있는 패" width="540" height="960"><figcaption>손에 든 패를 누르기만 하면 돼요</figcaption></figure>
+      <figure><img src="landing/shot-2.jpg" alt="고·스톱을 큰 단추 하나로 고르는 화면" width="540" height="960"><figcaption>스톱하면 얼마 받는지 먼저 보여 줘요</figcaption></figure>
+      <figure><img src="landing/shot-5.jpg" alt="시작 화면: 식구 이름으로 바꾼 자리" width="540" height="960"><figcaption>이름·사람/컴퓨터를 골라 시작해요</figcaption></figure>
+    </div>
+  </section>
+
+  <section aria-labelledby="family">
+    <h2 id="family">가족과 함께</h2>
+    <ul class="cards">
+      <li><b>둘이서 맞고</b>혼자서는 컴퓨터와 한 판. 컴퓨터 실력은 '쉬움'과 '보통' 중에 골라요.</li>
+      <li><b>식구끼리 한 폰으로</b>자리마다 이름을 바꿀 수 있어요. 한 폰을 돌려 가며 쳐도 돼요.</li>
+      <li><b>태블릿에선 셋이서</b>가로 큰 화면에서는 셋이서 고스톱도 칠 수 있어요.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="safe">
+    <div class="safe">
+      <h2 id="safe">마음 놓고 쳐요</h2>
+      <ul>
+        <li>웹판에는 광고도 회원 가입도 없어요.</li>
+        <li>게임 속 돈 '냥'은 진짜 돈이 아니에요. 현금이나 상품으로 바꿀 수 없어요.</li>
+        <li>실제 돈을 걸거나 딸 수 없는 오락용 게임이에요.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  <div class="links"><a href="privacy.html">개인정보처리방침</a><a href="support.html">문의·도움말</a><a href="play/">PC에서 바로 하기</a></div>
+  <small>화투 그림: Louie Mantia, Jr. 원작 · Marcus Richert 수정 · Spenĉjo 정리 — "Hwatu"(Wikimedia Commons), <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>. 앱 안 '그림 출처'에 자세히 있어요.</small>
+  <small>© codecat · 사랑방 고스톱</small>
+</div></footer>
+</body>
+</html>

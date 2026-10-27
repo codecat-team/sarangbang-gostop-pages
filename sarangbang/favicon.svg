@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- B12 시안 B: 손에 쥔 패 세 장(부채꼴). 주황 바탕, 뒤 두 장은 앱의 보라 뒷면, 앞 한 장은 해 그림. 자체 도안 -->
+  <defs>
+    <linearGradient id="org" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFB547"/><stop offset="1" stop-color="#F08A00"/></linearGradient>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#5a2a00" flood-opacity=".45"/></filter>
+    <g id="back">
+      <rect x="-76" y="-232" width="152" height="216" rx="16" fill="#7E1712"/>
+      <rect x="-64" y="-220" width="128" height="192" rx="8" fill="none" stroke="#F3E3C3" stroke-width="5"/>
+      <path d="M0 -176 l32 52 -32 52 -32 -52z" fill="#F3E3C3"/>
+    </g>
+  </defs>
+  <rect width="512" height="512" fill="url(#org)"/>
+  <g transform="translate(256 262) scale(1.12) translate(-256 -262)"><g transform="translate(256 404)" filter="url(#sh)">
+    <use href="#back" transform="rotate(-24)"/>
+    <use href="#back" transform="rotate(24)"/>
+    <g>
+      <rect x="-80" y="-244" width="160" height="228" rx="16" fill="#f6efd8"/>
+      <rect x="-68" y="-232" width="136" height="204" rx="8" fill="none" stroke="#B3122E" stroke-width="6"/>
+      <circle cx="0" cy="-162" r="46" fill="#E0301E"/>
+      <path d="M-64 -28 V-80 q30-32 58-4 q26-28 70 8 V-28z" fill="#1c1c1e"/>
+    </g>
+  </g>
+</g></svg>
