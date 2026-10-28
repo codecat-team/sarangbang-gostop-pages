@@ -204,8 +204,8 @@ DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 
-══ 3. 패 소리 (공공누리 제1유형) ══
-이 앱의 패 소리는 공공누리 제1유형에 따라 (재)전주정보문화산업진흥원의 '근현대사물_화투' 녹음(공유마당, gongu.copyright.or.kr)을 잘라 쓰고 음량을 조정했습니다.
+══ 3. 패 소리 ══
+이 앱의 패 소리는 codecat 이 직접 합성해 만들었습니다. 다른 사람의 녹음은 쓰지 않았습니다.
 
 ══ 3-2. 꾸미기 배경 사진 (사랑방·사랑채·대청마루) ══
 Background photos in this folder (B28 "decorate the room" backgrounds)
