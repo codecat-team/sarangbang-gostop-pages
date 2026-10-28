@@ -1,0 +1,1 @@
+export{t as capacitorPlatform}from"./capacitor-DTjMw1cR.js";

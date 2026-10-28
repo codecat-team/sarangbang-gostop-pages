@@ -1,1 +1,0 @@
-export{t as capacitorPlatform}from"./capacitor-DmdByCqh.js";
