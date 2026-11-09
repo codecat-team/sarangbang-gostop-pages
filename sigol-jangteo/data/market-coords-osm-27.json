@@ -1,0 +1,272 @@
+[
+ {
+  "sido": "경상남도",
+  "sigungu": "창녕군",
+  "name": "이방정기시장",
+  "lat": 35.56847,
+  "lng": 128.38127,
+  "basis": "읍·면·리 중심",
+  "query": "이방면 창녕군",
+  "osmType": "town"
+ },
+ {
+  "sido": "경상남도",
+  "sigungu": "창녕군",
+  "name": "창녕상설시장",
+  "lat": 35.52993,
+  "lng": 128.49609,
+  "basis": "읍·면·리 중심",
+  "query": "창녕읍 창녕군",
+  "osmType": "town"
+ },
+ {
+  "sido": "경상남도",
+  "sigungu": "창원시 진해구",
+  "name": "경화시장",
+  "lat": 35.15998,
+  "lng": 128.69073,
+  "basis": "읍·면·리 중심",
+  "query": "경화동 창원시",
+  "osmType": "quarter"
+ },
+ {
+  "sido": "경상남도",
+  "sigungu": "하동군",
+  "name": "옥종공설시장",
+  "lat": 35.18107,
+  "lng": 127.86977,
+  "basis": "읍·면·리 중심",
+  "query": "청룡리 옥종면 하동군",
+  "osmType": "village"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "구미시",
+  "name": "해평공설시장",
+  "lat": 36.2148,
+  "lng": 128.38839,
+  "basis": "읍·면·리 중심",
+  "query": "해평면 구미시",
+  "osmType": "town"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "상주시",
+  "name": "함창시장",
+  "lat": 36.55707,
+  "lng": 128.19041,
+  "basis": "읍·면·리 중심",
+  "query": "함창읍 상주시",
+  "osmType": "town"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "영양군",
+  "name": "영양시장",
+  "lat": 36.66736,
+  "lng": 129.09811,
+  "basis": "읍·면·리 중심",
+  "query": "서부리 영양읍 영양군",
+  "osmType": "village"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "청송군",
+  "name": "안덕시장",
+  "lat": 36.30767,
+  "lng": 128.97955,
+  "basis": "읍·면·리 중심",
+  "query": "안덕면 청송군",
+  "osmType": "administrative"
+ },
+ {
+  "sido": "전북특별자치도",
+  "sigungu": "익산시",
+  "name": "함열시장",
+  "lat": 36.06209,
+  "lng": 126.96389,
+  "basis": "읍·면·리 중심",
+  "query": "함열읍 익산시",
+  "osmType": "administrative"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "포항시 북구",
+  "name": "기북장",
+  "lat": 36.1435,
+  "lng": 129.1793,
+  "basis": "읍·면·리 중심",
+  "query": "기북면 포항시",
+  "osmType": "administrative"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "포항시 북구",
+  "name": "죽장장",
+  "lat": 36.19298,
+  "lng": 129.1098,
+  "basis": "읍·면·리 중심",
+  "query": "죽장면 포항시",
+  "osmType": "administrative"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "포항시 남구",
+  "name": "장기장",
+  "lat": 35.90656,
+  "lng": 129.4929,
+  "basis": "읍·면·리 중심",
+  "query": "장기면 포항시",
+  "osmType": "administrative"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "안동시",
+  "name": "임동장",
+  "lat": 36.57282,
+  "lng": 128.93591,
+  "basis": "읍·면·리 중심",
+  "query": "임동면 안동시",
+  "osmType": "town"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "영주시",
+  "name": "풍기장",
+  "lat": 36.89142,
+  "lng": 128.50935,
+  "basis": "읍·면·리 중심",
+  "query": "풍기읍 영주시",
+  "osmType": "town"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "영주시",
+  "name": "영주장",
+  "lat": 36.82851,
+  "lng": 128.62089,
+  "basis": "읍·면·리 중심",
+  "query": "영주동 영주시",
+  "osmType": "quarter"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "문경시",
+  "name": "문경중앙장",
+  "lat": 36.73606,
+  "lng": 128.10745,
+  "basis": "읍·면·리 중심",
+  "query": "문경읍 문경시",
+  "osmType": "town"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "문경시",
+  "name": "동로장",
+  "lat": 36.75678,
+  "lng": 128.30656,
+  "basis": "읍·면·리 중심",
+  "query": "동로면 문경시",
+  "osmType": "town"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "문경시",
+  "name": "농암장",
+  "lat": 36.58224,
+  "lng": 128.00392,
+  "basis": "읍·면·리 중심",
+  "query": "농암면 문경시",
+  "osmType": "town"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "의성군",
+  "name": "다인장",
+  "lat": 36.46154,
+  "lng": 128.36778,
+  "basis": "읍·면·리 중심",
+  "query": "다인면 의성군",
+  "osmType": "town"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "의성군",
+  "name": "옥산장",
+  "lat": 36.3664,
+  "lng": 128.82795,
+  "basis": "읍·면·리 중심",
+  "query": "옥산면 의성군",
+  "osmType": "town"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "의성군",
+  "name": "안평장",
+  "lat": 36.3785,
+  "lng": 128.5892,
+  "basis": "읍·면·리 중심",
+  "query": "안평면 의성군",
+  "osmType": "town"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "의성군",
+  "name": "신평장",
+  "lat": 36.4692,
+  "lng": 128.51913,
+  "basis": "읍·면·리 중심",
+  "query": "신평면 의성군",
+  "osmType": "town"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "영덕군",
+  "name": "영덕장",
+  "lat": 36.42963,
+  "lng": 129.39175,
+  "basis": "읍·면·리 중심",
+  "query": "영덕읍 영덕군",
+  "osmType": "administrative"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "청도군",
+  "name": "이서장",
+  "lat": 35.68162,
+  "lng": 128.66447,
+  "basis": "읍·면·리 중심",
+  "query": "이서면 청도군",
+  "osmType": "administrative"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "성주군",
+  "name": "벽진장",
+  "lat": 35.96162,
+  "lng": 128.20959,
+  "basis": "읍·면·리 중심",
+  "query": "벽진면 성주군",
+  "osmType": "administrative"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "칠곡군",
+  "name": "약목장",
+  "lat": 36.03067,
+  "lng": 128.37033,
+  "basis": "읍·면·리 중심",
+  "query": "약목면 칠곡군",
+  "osmType": "administrative"
+ },
+ {
+  "sido": "경상북도",
+  "sigungu": "칠곡군",
+  "name": "동명장",
+  "lat": 36.00378,
+  "lng": 128.5666,
+  "basis": "읍·면·리 중심",
+  "query": "동명면 칠곡군",
+  "osmType": "administrative"
+ }
+]
