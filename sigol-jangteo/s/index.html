@@ -64,12 +64,12 @@ function badges(){
  if(!ios&&!and)$('note').textContent='휴대폰에서 열어 주세요.';
 }
 
-function bad(){return}
+function gone(k){show(k,'이 항목을 지금은 찾지 못했어요','앱에서 직접 찾아볼 수 있어요.')}
 var t=P.get('t'),id=P.get('id'),dd=ymd(P.get('d'));
 function ctl(ms){var c=new AbortController();setTimeout(function(){c.abort()},ms);return c.signal}
 if(t==='m'&&/^m-[0-9a-f]{12}$/.test(id||'')){
  fetch('markets-public.json',{signal:ctl(8000),credentials:'omit',referrerPolicy:'no-referrer'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){
-  var m=(j.items||[]).filter(function(x){return x&&x.id===id})[0];if(!m)return;
+  var m=(j.items||[]).filter(function(x){return x&&x.id===id})[0];if(!m){gone('장 서는 날');return}
   var days=Array.isArray(m.days)?m.days.filter(function(n){return n>=1&&n<=30}):[];
   var name=String(m.name||'').slice(0,60),sg=String(m.sigungu||'').slice(0,30),cyc=String(m.cycleText||'').slice(0,20);
   var line='';
@@ -79,17 +79,17 @@ if(t==='m'&&/^m-[0-9a-f]{12}$/.test(id||'')){
     line=n?('다음 장은 '+fmt(n)+'이에요'):'장날을 확인하고 있어요'}
   }else line=m.checking?'장날을 확인하고 있어요':(dd?fmt(dd):'');
   show('장 서는 날',name,line,(sg+(cyc?' · '+cyc:'')).trim());
- }).catch(bad);
+ }).catch(function(){gone('장 서는 날')});
 }else if(t==='f'&&/^f-[0-9a-f]{12}$/.test(id||'')){
  fetch('https://sigol-jangteo-proxy.codecat-kr.workers.dev/v1/festival?id='+id,{signal:ctl(8000),credentials:'omit',referrerPolicy:'no-referrer'}).then(function(r){if(r.status!==200)throw 0;return r.json()}).then(function(j){
-  var f=j&&j.festival;if(!f||!f.name)return;
+  var f=j&&j.festival;if(!f||!f.name){gone('축제');return}
   var a=ymd(f.start),b=ymd(f.end);var when='';
   if(a&&b){when=(a.getTime()===b.getTime())?fmt(a):fmt(a)+' – '+fmt(b,a.getMonth()!==b.getMonth())}else if(a)when=fmt(a);
   var place=String(f.place||'').slice(0,80),addr=String(f.addr||'').slice(0,100);
   var s=show('축제',String(f.name).slice(0,80),when,[place,addr].filter(Boolean).join(' · '));
   if(typeof f.url==='string'&&f.url.indexOf('https://')===0&&f.url.length<300){s.appendChild(document.createTextNode(' '));var a2=document.createElement('a');a2.href=f.url;a2.rel='noopener noreferrer nofollow';a2.textContent='공식 안내';s.appendChild(a2)}
- }).catch(bad);
-}
+ }).catch(function(){gone('축제')});
+}else if(t||id){gone(t==='m'?'장 서는 날':'축제')}
 
 badges();
 })();
