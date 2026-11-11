@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>열려라 숲 · 휴양림 예약 열리는 날 알림</title>
+<meta name="description" content="가고 싶은 휴양림 예약이 열리기 전에 미리 알려 드려요.">
+<meta name="robots" content="noindex"><meta name="referrer" content="no-referrer">
+<meta property="og:type" content="website"><meta property="og:title" content="열려라 숲 · 휴양림 예약 열리는 날 알림"><meta property="og:description" content="가고 싶은 휴양림 예약이 열리기 전에 미리 알려 드려요.">
+<meta property="og:image" content="https://codecat.co.kr/hyuyangrim/s/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="color-scheme" content="light dark">
+<link rel="icon" href="icon.png">
+<style>
+:root{--ink:#1b1b18;--sub:#6b665c;--line:#ddd6c8;--bg:#fbf8f2;--card:#fff;--acc:#1f6b47}
+@media (prefers-color-scheme:dark){:root{--ink:#f3efe6;--sub:#a8a294;--line:#34312b;--bg:#141311;--card:#1f1d1a;--acc:#6fc496}}
+*{box-sizing:border-box}
+html{font-size:18px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;word-break:keep-all;line-height:1.45}
+.w{max-width:30rem;margin:0 auto;padding:1.2rem 1.1rem 2rem;min-height:100vh;display:flex;flex-direction:column}
+.brand{display:flex;align-items:center;gap:.45rem;font-size:.9rem;font-weight:800}
+.brand svg{width:1.3rem;height:1.3rem;fill:var(--ink)}
+.item{margin-top:1.4rem;background:var(--card);border:1px solid var(--line);border-radius:1.1rem;padding:1.1rem}
+.item[hidden]{display:none}
+.k{font-size:.8rem;font-weight:700;color:var(--acc)}
+.item h1{font-size:1.45rem;margin:.35rem 0 .25rem;letter-spacing:-.02em;overflow-wrap:anywhere}
+.d{font-size:1rem;font-weight:700}
+.s{font-size:.85rem;color:var(--sub);margin-top:.3rem;overflow-wrap:anywhere}
+.s a{color:var(--acc);font-weight:700}
+.appline{display:flex;align-items:center;gap:.75rem;margin-top:1.4rem}
+.appline img{width:3.4rem;height:3.4rem;border-radius:.8rem}
+.appline b{display:block;font-size:1rem}.appline span{display:block;font-size:.85rem;color:var(--sub)}
+.badges{display:flex;flex-direction:column;gap:.6rem;margin-top:1.1rem}
+.badge{min-height:2.9rem;border-radius:.6rem;background:#000;color:#fff;display:flex;align-items:center;justify-content:center;gap:.5rem;font-size:.9rem;font-weight:700;border:1px solid #444;text-decoration:none;padding:.3rem .8rem}
+.badge small{display:block;font-size:.65rem;font-weight:500;opacity:.85}
+.badge .bx{display:flex;flex-direction:column;line-height:1.15}
+.badge.dim{opacity:.6}
+.soon{margin-top:.6rem;font-size:.85rem;color:var(--sub)}
+.note{margin-top:.8rem;font-size:.85rem;color:var(--sub)}
+.foot{margin-top:auto;padding-top:1.4rem;font-size:.8rem;color:var(--sub);display:flex;flex-wrap:wrap;gap:.3rem 1rem;justify-content:space-between}
+.foot a{color:var(--sub)}
+</style></head><body>
+<div class="w">
+<div class="brand"><svg viewBox="220 -52 800 800" aria-hidden="true"><path d="M292 258C290 200 305 110 322 60Q335 28 368 42L490 130Q620 80 750 130L872 42Q905 28 918 60C935 110 950 200 948 258C1000 330 1012 480 930 590C880 650 760 668 620 668C480 668 360 650 310 590C228 480 240 330 292 258Z"/></svg>codecat</div>
+<section class="item" id="item" hidden><div class="k" id="k"></div><h1 id="h"></h1><div class="d" id="d"></div><div class="s" id="s"></div></section>
+<div class="appline"><img src="icon.png" alt="" width="54" height="54"><div><b>열려라 숲</b><span>휴양림 예약 열리는 날 알림</span></div></div>
+<div class="badges" id="badges"></div>
+<div class="note" id="note"></div>
+
+<div class="foot"><span>무료 · 광고 있음</span><span>이 페이지는 GitHub Pages에서 열려요. 쿠키·분석 없음.</span><a href="../privacy.html">개인정보처리방침</a></div>
+</div>
+<script>
+(function(){
+var APP={play:'https://play.google.com/store/apps/details?id=kr.co.codecat.hyuyangrim',ios:''};
+var $=function(i){return document.getElementById(i)};
+var P=new URLSearchParams(location.search);
+var WD=['일','월','화','수','목','금','토'];
+function ymd(s){var m=/^(\d{4})-?(\d{2})-?(\d{2})$/.exec(String(s||''));if(!m)return null;var y=+m[1],mo=+m[2],d=+m[3];var dt=new Date(y,mo-1,d);if(dt.getFullYear()!==y||dt.getMonth()!==mo-1||dt.getDate()!==d)return null;return dt}
+function fmt(dt,withMonth){return (withMonth===false?'':(dt.getMonth()+1)+'월 ')+dt.getDate()+'일('+WD[dt.getDay()]+')'}
+function show(k,h,d,s){var it=$('item');$('k').textContent=k;$('h').textContent=h;$('d').textContent=d||'';$('s').textContent=s||'';it.hidden=false;return $('s')}
+function badges(){
+ var ua=navigator.userAgent||'';var ios=/iPhone|iPad|iPod/.test(ua)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);var and=/Android/.test(ua);
+ var b=$('badges');b.textContent='';
+ function mk(label,store,url,dim){var a=document.createElement(url?'a':'div');a.className='badge'+(dim?' dim':'');if(url){a.href=url;a.rel='noopener'}var bx=document.createElement('span');bx.className='bx';var sm=document.createElement('small');sm.textContent=url?'다운로드하기':'준비 중이에요';bx.appendChild(sm);bx.appendChild(document.createTextNode(store));a.appendChild(bx);return a}
+ var ap=mk('','App Store',APP.ios,false),gp=mk('','Google Play',APP.play,false);
+ var first=ios?[ap,gp]:and?[gp,ap]:[gp,ap];
+ first.forEach(function(x,i){if(i)x.classList.add('dim');b.appendChild(x)});
+ if(!ios&&!and)$('note').textContent='휴대폰에서 열어 주세요.';
+}
+
+function gone(){show('휴양림','이 휴양림을 지금은 찾지 못했어요','','');$('d').textContent='앱에서 직접 찾아볼 수 있어요.'}
+var f=P.get('f');
+if(/^[A-Za-z0-9_-]{3,40}$/.test(f||'')){
+ var c=new AbortController();setTimeout(function(){c.abort()},10000);
+ fetch('../rules.json',{signal:c.signal,credentials:'omit',referrerPolicy:'no-referrer'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){
+  var v=(j.forests||[]).filter(function(x){return x&&x.venueId===f})[0];if(!v||!v.name){gone();return}
+  show('친구가 보낸 휴양림',String(v.name).slice(0,60),'',String(v.region||'').slice(0,20));
+  $('d').textContent='예약이 열리는 시각은 받은 글에 있어요. 앱에서 알림으로 받을 수 있어요.';
+ }).catch(function(){gone()});
+}else if(f){gone()}
+
+badges();
+})();
+</script></body></html>
