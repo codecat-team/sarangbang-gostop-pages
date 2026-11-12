@@ -29,8 +29,6 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"A
 .appline b{display:block;font-size:1rem}.appline span{display:block;font-size:.85rem;color:var(--sub)}
 .badges{display:flex;flex-direction:column;gap:.6rem;margin-top:1.1rem}
 .badge{min-height:2.9rem;border-radius:.6rem;background:#000;color:#fff;display:flex;align-items:center;justify-content:center;gap:.5rem;font-size:.9rem;font-weight:700;border:1px solid #444;text-decoration:none;padding:.3rem .8rem}
-.badge small{display:block;font-size:.65rem;font-weight:500;opacity:.85}
-.badge .bx{display:flex;flex-direction:column;line-height:1.15}
 .badge.dim{opacity:.6}
 .note{margin-top:.8rem;font-size:.85rem;color:var(--sub)}
 .foot{margin-top:auto;padding-top:1.4rem;font-size:.8rem;color:var(--sub);display:flex;flex-wrap:wrap;gap:.3rem 1rem;justify-content:space-between}
@@ -43,7 +41,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"A
 <div class="badges" id="badges"></div>
 <div class="note" id="note"></div>
 
-<div class="foot"><span>무료 · 광고 있음</span><span>이 페이지는 GitHub Pages에서 열려요. 쿠키·분석 없음.</span><a href="../privacy.html">개인정보처리방침</a></div>
+<div class="foot"><span>무료 · 광고 있음</span><span>이 페이지는 GitHub Pages에서 열려요. 쿠키·분석은 쓰지 않아요.</span><a href="../privacy.html">개인정보처리방침</a></div>
 </div>
 <script>
 (function(){
@@ -63,8 +61,8 @@ function get(url,ok){var c=new AbortController();setTimeout(function(){c.abort()
 function badges(){
  var ua=navigator.userAgent||'';var ios=/iPhone|iPad|iPod/.test(ua)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);var and=/Android/.test(ua);
  var b=$('badges');b.textContent='';
- function mk(store,url){var a=document.createElement(url?'a':'div');a.className='badge';if(url){a.href=url;a.rel='noopener'}var bx=document.createElement('span');bx.className='bx';var sm=document.createElement('small');sm.textContent=url?'다운로드하기':'준비 중이에요';bx.appendChild(sm);bx.appendChild(document.createTextNode(store));a.appendChild(bx);return a}
- var ap=mk('App Store',APP.ios),gp=mk('Google Play',APP.play);
+ function mk(label,url){var a=document.createElement(url?'a':'div');a.className='badge';if(url){a.href=url;a.rel='noopener'}a.textContent=label;return a}
+ var ap=mk(APP.ios?'App Store에서 다운로드':'App Store는 준비 중이에요',APP.ios),gp=mk('Google Play에서 다운로드',APP.play);
  var first=ios?[ap,gp]:[gp,ap];
  first.forEach(function(x,i){if(i)x.classList.add('dim');b.appendChild(x)});
  if(!ios&&!and)$('note').textContent='휴대폰에서 열어 주세요.';
