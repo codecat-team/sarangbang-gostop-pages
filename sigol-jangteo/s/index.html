@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>오일장축제 · 가까운 장과 축제를 한눈에</title>
+<meta name="description" content="가까운 장과 축제를 한눈에">
+<meta name="robots" content="noindex"><meta name="referrer" content="no-referrer">
+<meta property="og:type" content="website"><meta property="og:title" content="오일장축제"><meta property="og:description" content="가까운 장과 축제를 한눈에">
+<meta property="og:image" content="https://codecat.co.kr/sigol-jangteo/s/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="color-scheme" content="light dark">
+<link rel="icon" href="icon.png"><link rel="apple-touch-icon" href="icon.png">
+<style>
+:root{--ink:#2a2118;--sub:#6e6355;--line:#e2d9ca;--bg:#f6f2ea;--card:#fff;--acc:#c8562c;--fes:#2c5c9c}
+@media (prefers-color-scheme:dark){:root{--ink:#f2ede4;--sub:#a89e8e;--line:#34302a;--bg:#14120f;--card:#1d1a15;--acc:#e8845a;--fes:#7aa8e0}}
+*{box-sizing:border-box}
+html{font-size:18px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;word-break:keep-all;line-height:1.45}
+.w{max-width:30rem;margin:0 auto;padding:1.2rem 1.1rem 2rem;min-height:100vh;display:flex;flex-direction:column}
+.brand{display:flex;align-items:center;gap:.45rem;font-size:.9rem;font-weight:800}
+.brand svg{width:1.3rem;height:1.3rem;fill:var(--ink)}
+.item{margin-top:1.4rem;background:var(--card);border:1px solid var(--line);border-radius:1.1rem;padding:1.1rem}
+.item[hidden]{display:none}
+.k{font-size:.8rem;font-weight:700;color:var(--acc)}
+.item.fes .k{color:var(--fes)}
+.item h1{font-size:1.45rem;margin:.35rem 0 .25rem;letter-spacing:-.02em;overflow-wrap:anywhere}
+.d{font-size:1rem;font-weight:700}
+.s{font-size:.85rem;color:var(--sub);margin-top:.3rem;overflow-wrap:anywhere}
+.f{font-size:.8rem;color:var(--sub);margin-top:.6rem}
+.appline{display:flex;align-items:center;gap:.75rem;margin-top:1.4rem}
+.appline img{width:3.4rem;height:3.4rem;border-radius:.8rem}
+.appline b{display:block;font-size:1rem}.appline span{display:block;font-size:.85rem;color:var(--sub)}
+.badges{display:flex;flex-direction:column;gap:.6rem;margin-top:1.1rem}
+.badge{min-height:2.9rem;border-radius:.6rem;background:#000;color:#fff;display:flex;align-items:center;justify-content:center;gap:.5rem;font-size:.9rem;font-weight:700;border:1px solid #444;text-decoration:none;padding:.3rem .8rem}
+.badge small{display:block;font-size:.65rem;font-weight:500;opacity:.85}
+.badge .bx{display:flex;flex-direction:column;line-height:1.15}
+.badge.dim{opacity:.6}
+.note{margin-top:.8rem;font-size:.85rem;color:var(--sub)}
+.foot{margin-top:auto;padding-top:1.4rem;font-size:.8rem;color:var(--sub);display:flex;flex-wrap:wrap;gap:.3rem 1rem;justify-content:space-between}
+.foot a{color:var(--sub)}
+</style></head><body>
+<div class="w">
+<div class="brand"><svg viewBox="220 -52 800 800" aria-hidden="true"><path d="M292 258C290 200 305 110 322 60Q335 28 368 42L490 130Q620 80 750 130L872 42Q905 28 918 60C935 110 950 200 948 258C1000 330 1012 480 930 590C880 650 760 668 620 668C480 668 360 650 310 590C228 480 240 330 292 258Z"/></svg>codecat</div>
+<section class="item" id="item" hidden><div class="k" id="k"></div><h1 id="h"></h1><div class="d" id="d"></div><div class="s" id="s"></div><div class="f" id="f"></div></section>
+<div class="appline"><img src="icon.png" alt="" width="54" height="54"><div><b>오일장축제</b><span>가까운 장과 축제를 한눈에</span></div></div>
+<div class="badges" id="badges"></div>
+<div class="note" id="note"></div>
+
+<div class="foot"><span>무료 · 광고 있음</span><span>이 페이지는 GitHub Pages에서 열려요. 쿠키·분석 없음.</span><a href="../privacy.html">개인정보처리방침</a></div>
+</div>
+<script>
+(function(){
+var APP={play:'https://play.google.com/store/apps/details?id=kr.co.codecat.achimhanjang',ios:''};
+var FEST='https://sigol-jangteo-proxy.codecat-kr.workers.dev/v1/festival?id=';
+var $=function(i){return document.getElementById(i)};
+var P=new URLSearchParams(location.search);
+var WD=['일','월','화','수','목','금','토'];
+function day(s){var m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(String(s||''));if(!m)return null;var y=+m[1],mo=+m[2],d=+m[3];var dt=new Date(Date.UTC(y,mo-1,d));if(dt.getUTCFullYear()!==y||dt.getUTCMonth()!==mo-1||dt.getUTCDate()!==d)return null;return dt}
+function fmt(dt){return (dt.getUTCMonth()+1)+'월 '+dt.getUTCDate()+'일('+WD[dt.getUTCDay()]+')'}
+function range(a,b){var s=day(a),e=day(b);if(!s)return '';if(!e||a===b)return fmt(s);var t=fmt(e);return fmt(s)+' – '+(s.getUTCMonth()===e.getUTCMonth()?t.replace(/^\d+월 /,''):t)}
+function cut(v,n){return String(v==null?'':v).slice(0,n)}
+function show(cls,k,h,d,s,f){var it=$('item');it.className='item'+(cls?' '+cls:'');$('k').textContent=k;$('h').textContent=h;$('d').textContent=d||'';$('s').textContent=s||'';$('f').textContent=f||'';it.hidden=false}
+function gone(){show('','','열 수 없는 링크예요','앱에서 직접 찾아볼 수 있어요.','','')}
+function get(url,ok){var c=new AbortController();setTimeout(function(){c.abort()},10000);
+ fetch(url,{signal:c.signal,credentials:'omit',referrerPolicy:'no-referrer'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(ok).catch(function(){gone()})}
+function badges(){
+ var ua=navigator.userAgent||'';var ios=/iPhone|iPad|iPod/.test(ua)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);var and=/Android/.test(ua);
+ var b=$('badges');b.textContent='';
+ function mk(store,url){var a=document.createElement(url?'a':'div');a.className='badge';if(url){a.href=url;a.rel='noopener'}var bx=document.createElement('span');bx.className='bx';var sm=document.createElement('small');sm.textContent=url?'다운로드하기':'준비 중이에요';bx.appendChild(sm);bx.appendChild(document.createTextNode(store));a.appendChild(bx);return a}
+ var ap=mk('App Store',APP.ios),gp=mk('Google Play',APP.play);
+ var first=ios?[ap,gp]:[gp,ap];
+ first.forEach(function(x,i){if(i)x.classList.add('dim');b.appendChild(x)});
+ if(!ios&&!and)$('note').textContent='휴대폰에서 열어 주세요.';
+}
+
+var t=P.get('t'),id=P.get('id')||'',d=P.get('d');
+var okId=(t==='m'||t==='f')&&/^[mf]-[0-9a-f]{12}$/.test(id)&&id.charAt(0)===t;
+if(okId&&t==='m'&&day(d)){
+ get('../data/markets-public.json',function(j){
+  var v=(j.items||[]).filter(function(x){return x&&x.id===id})[0];if(!v||!v.name){gone();return}
+  show('',cut(v.sigungu,20)+' 장 서는 날',cut(v.name,60),fmt(day(d)),cut(v.address,120),'서는 날은 바뀔 수 있어요. 가시기 전에 한 번 더 확인해 주세요.');
+ });
+}else if(okId&&t==='f'){
+ get(FEST+encodeURIComponent(id),function(j){
+  var v=j&&j.festival;if(!v||!v.name){gone();return}
+  show('fes','축제',cut(v.name,60),range(v.start,v.end),cut(v.place||v.addr,120),'일정은 바뀔 수 있어요. 가시기 전에 한 번 더 확인해 주세요.');
+ });
+}else if(t||id||d){gone()}
+
+badges();
+})();
+</script></body></html>

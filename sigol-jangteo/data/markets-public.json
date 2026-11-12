@@ -1,0 +1,7512 @@
+{
+ "v": 1,
+ "rule": "held when the day of the month is in days; the 31st is never a market day; no days while checking is true",
+ "count": 417,
+ "items": [
+  {
+   "id": "m-e2c9638d8c48",
+   "name": "간성전통시장",
+   "sido": "강원특별자치도",
+   "sigungu": "고성군",
+   "address": "강원특별자치도 고성군 간성읍 간성시장3길 7-2",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-6680b22a73fb",
+   "name": "거진전통시장",
+   "sido": "강원특별자치도",
+   "sigungu": "고성군",
+   "address": "강원특별자치도 고성군 거진읍 거진시장길 13-3",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-89b10ece01f5",
+   "name": "북평민속시장",
+   "sido": "강원특별자치도",
+   "sigungu": "동해시",
+   "address": "강원특별자치도 동해시 오일장길 32",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-edcfd024732c",
+   "name": "삼척중앙시장",
+   "sido": "강원특별자치도",
+   "sigungu": "삼척시",
+   "address": "강원특별자치도 삼척시 진주로 12-21",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-e58370c87bff",
+   "name": "양구중앙시장",
+   "sido": "강원특별자치도",
+   "sigungu": "양구군",
+   "address": "강원특별자치도 양구군 중앙길 68",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-d3e22695bd04",
+   "name": "양양전통시장",
+   "sido": "강원특별자치도",
+   "sigungu": "양양군",
+   "address": "강원특별자치도 양양군 양양읍 남문5길 9",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-8b7cc3c97762",
+   "name": "문막시장",
+   "sido": "강원특별자치도",
+   "sigungu": "원주시",
+   "address": "강원특별자치도 원주시 문막읍 문막시장1길 52-10",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-ffa7118c186b",
+   "name": "민속풍물시장",
+   "sido": "강원특별자치도",
+   "sigungu": "원주시",
+   "address": "강원특별자치도 원주시 풍물시장길 30",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-2ce5b6dd480f",
+   "name": "기린전통시장",
+   "sido": "강원특별자치도",
+   "sigungu": "인제군",
+   "address": "강원특별자치도 인제군 기린면 기린로 17",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-3bd640718908",
+   "name": "원통시장",
+   "sido": "강원특별자치도",
+   "sigungu": "인제군",
+   "address": "강원특별자치도 인제군 북면 원통로 178번길 7-1",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-c91b594ef5bb",
+   "name": "인제시장",
+   "sido": "강원특별자치도",
+   "sigungu": "인제군",
+   "address": "강원특별자치도 인제군 인제읍 인제로 178번길 14",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-4b1ec17cc468",
+   "name": "임계사통팔달시장",
+   "sido": "강원특별자치도",
+   "sigungu": "정선군",
+   "address": "강원특별자치도 정선군 임계면 송계3길 12",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-e98ecc83abc5",
+   "name": "정선아리랑시장",
+   "sido": "강원특별자치도",
+   "sigungu": "정선군",
+   "address": "강원특별자치도 정선군 정선읍 봉양7길 39",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-e936dc308290",
+   "name": "동송시장",
+   "sido": "강원특별자치도",
+   "sigungu": "철원군",
+   "address": "강원특별자치도 철원군 동송읍 이평로 47번길 16",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-07b1d5c0bf54",
+   "name": "신철원시장",
+   "sido": "강원특별자치도",
+   "sigungu": "철원군",
+   "address": "강원특별자치도 철원군 갈말읍 삼부연로18번길 16-2",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-a556fc16f887",
+   "name": "와수시장",
+   "sido": "강원특별자치도",
+   "sigungu": "철원군",
+   "address": "강원특별자치도 철원군 서면 와수로 184번길 6-3",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-8eddb45f6c41",
+   "name": "춘천풍물시장",
+   "sido": "강원특별자치도",
+   "sigungu": "춘천시",
+   "address": "강원특별자치도 춘천시 영서로 2352-54",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-098230912362",
+   "name": "봉평전통시장(봉평시장)",
+   "sido": "강원특별자치도",
+   "sigungu": "평창군",
+   "address": "강원특별자치도 평창군 봉평면 허생원장터길15",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-4e3e0a3beec7",
+   "name": "진부전통시장",
+   "sido": "강원특별자치도",
+   "sigungu": "평창군",
+   "address": "강원특별자치도 평창군 진부면 진부새싹길 28-7",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-af080846801b",
+   "name": "평창대화시장",
+   "sido": "강원특별자치도",
+   "sigungu": "평창군",
+   "address": "강원특별자치도 평창군 대화면 대화4길 20",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-cd10213a3b22",
+   "name": "평창올림픽시장(평창전통시장)",
+   "sido": "강원특별자치도",
+   "sigungu": "평창군",
+   "address": "강원특별자치도 평창군 평창읍 평창중앙로 27-26",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-38b5a2ce9dde",
+   "name": "화천시장",
+   "sido": "강원특별자치도",
+   "sigungu": "화천군",
+   "address": "강원특별자치도 화천군 화천읍 중앙로 24",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-cd697232454a",
+   "name": "횡성시장",
+   "sido": "강원특별자치도",
+   "sigungu": "횡성군",
+   "address": "강원특별자치도 횡성군 횡성읍 읍상리 277-3",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-8069b01eb705",
+   "name": "가평잣고을시장",
+   "sido": "경기도",
+   "sigungu": "가평군",
+   "address": "경기도 가평군 가평읍 장터2길 12",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-fc36639318bf",
+   "name": "설악눈메골시장",
+   "sido": "경기도",
+   "sigungu": "가평군",
+   "address": "경기도 가평군 설악면 신천중앙로 104-1",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-a3f81c061d23",
+   "name": "청평여울시장",
+   "sido": "경기도",
+   "sigungu": "가평군",
+   "address": "경기도 가평군 청평면 시장중앙로19",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-219ed0f07a31",
+   "name": "능곡시장",
+   "sido": "경기도",
+   "sigungu": "고양시 덕양구",
+   "address": "경기도 고양시 덕양구 능곡로 12",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-94542f03f9ef",
+   "name": "경안시장",
+   "sido": "경기도",
+   "sigungu": "광주시",
+   "address": "경기도 광주시 경안로25번길 14-1",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-382d0b51b535",
+   "name": "남양주장현 전통시장",
+   "sido": "경기도",
+   "sigungu": "남양주시",
+   "address": "경기도 남양주시 진접읍 장현로 77",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-8b9949854d57",
+   "name": "동두천큰시장",
+   "sido": "경기도",
+   "sigungu": "동두천시",
+   "address": "경기도 동두천시 큰시장로 52",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-8befaab15f7c",
+   "name": "모란종합시장",
+   "sido": "경기도",
+   "sigungu": "성남시 중원구",
+   "address": "경기도 성남시 중원구 성남대로 1127",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-3cbdae3ffdac",
+   "name": "도일시장",
+   "sido": "경기도",
+   "sigungu": "안산시 단원구",
+   "address": "경기도 안산시 단원구 도일로 100",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-bdce078361bc",
+   "name": "안산시시민시장",
+   "sido": "경기도",
+   "sigungu": "안산시 단원구",
+   "address": "경기도 안산시 단원구 화랑로 149",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-02c095b9d634",
+   "name": "죽산시장",
+   "sido": "경기도",
+   "sigungu": "안성시",
+   "address": "경기도 안성시 죽산면 중서길 8-9",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-cafe17c2639c",
+   "name": "중앙시장",
+   "sido": "경기도",
+   "sigungu": "안성시",
+   "address": "경기도 안성시 장기로45번길 30",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-473674fdf233",
+   "name": "양동쌍학시장",
+   "sido": "경기도",
+   "sigungu": "양평군",
+   "address": "경기도 양평군 양동면 학둔지아래길 76",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-e49549ba5050",
+   "name": "양수리전통시장(양평양수리시장)",
+   "sido": "경기도",
+   "sigungu": "양평군",
+   "address": "경기도 양평군 양서면 양수로150번길 3-15",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-f30f12fae335",
+   "name": "양평물맑은시장",
+   "sido": "경기도",
+   "sigungu": "양평군",
+   "address": "경기도 양평군 양평읍 양평장터길 15",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-9579b460fa09",
+   "name": "용문천년시장",
+   "sido": "경기도",
+   "sigungu": "양평군",
+   "address": "경기도 양평군 용문면 용문시장2길 11",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-f85f67534775",
+   "name": "여주한글시장(여주중앙로상점가)",
+   "sido": "경기도",
+   "sigungu": "여주시",
+   "address": "경기도 여주시 세종로14번길 24-1",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-c79ee000bcde",
+   "name": "오색시장",
+   "sido": "경기도",
+   "sigungu": "오산시",
+   "address": "경기도 오산시 오산로 272번길 21",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-0537b9656da8",
+   "name": "용인중앙시장",
+   "sido": "경기도",
+   "sigungu": "용인시 처인구",
+   "address": "경기도 용인시 처인구 금령로107번길 13",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-407c6310e9c5",
+   "name": "관고전통시장",
+   "sido": "경기도",
+   "sigungu": "이천시",
+   "address": "경기도 이천시 중리천로 31번길 22",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-3c2cb67f9321",
+   "name": "장호원전통시장",
+   "sido": "경기도",
+   "sigungu": "이천시",
+   "address": "경기도 이천시 장호원읍 장감로77번길 14",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-e526ea12bedf",
+   "name": "광탄시장",
+   "sido": "경기도",
+   "sigungu": "파주시",
+   "address": "경기도 파주시 광탄면 혜음로 1114",
+   "type": "상설장+3일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-4e8df964f13d",
+   "name": "금촌전통시장",
+   "sido": "경기도",
+   "sigungu": "파주시",
+   "address": "경기도 파주시 금정 24길 18-6",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-27c34a53c3b7",
+   "name": "문산자유시장",
+   "sido": "경기도",
+   "sigungu": "파주시",
+   "address": "경기도 파주시 문산읍 문향로 57",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-f7b09f0877f3",
+   "name": "봉일천시장",
+   "sido": "경기도",
+   "sigungu": "파주시",
+   "address": "경기도 파주시 조리읍 봉천로 33-1",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-ddd080769f49",
+   "name": "적성전통시장",
+   "sido": "경기도",
+   "sigungu": "파주시",
+   "address": "경기도 파주시 적성면 청송로 1023",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-d3d482b0ed26",
+   "name": "서정리시장",
+   "sido": "경기도",
+   "sigungu": "평택시",
+   "address": "경기도 평택시 서정역로 37",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-24c5a3d439a5",
+   "name": "송탄시장",
+   "sido": "경기도",
+   "sigungu": "평택시",
+   "address": "경기도 평택시 탄현로346번길 38",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-b290e9fa2b03",
+   "name": "안중시장",
+   "sido": "경기도",
+   "sigungu": "평택시",
+   "address": "경기도 평택시 안중읍 안현로서3길 34",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-75ea4bebfe93",
+   "name": "통복시장",
+   "sido": "경기도",
+   "sigungu": "평택시",
+   "address": "경기도 평택시 통복시장로25번길 10",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-14e2b2689438",
+   "name": "운천전통시장",
+   "sido": "경기도",
+   "sigungu": "포천시",
+   "address": "경기도 포천시 영북면 영북로 177번길 25",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-1adcee9eadf8",
+   "name": "덕풍전통시장",
+   "sido": "경기도",
+   "sigungu": "하남시",
+   "address": "경기도 하남시 수리북로 22",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-0da78d37be26",
+   "name": "남양시장",
+   "sido": "경기도",
+   "sigungu": "화성시 만세구",
+   "address": "경기도 화성시 남양읍 남양시장로 61",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-ac58a16cff44",
+   "name": "발안만세시장",
+   "sido": "경기도",
+   "sigungu": "화성시 만세구",
+   "address": "경기도 화성시 향남읍 평2길 7",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-372e2a8feac9",
+   "name": "사강시장",
+   "sido": "경기도",
+   "sigungu": "화성시 만세구",
+   "address": "경기도 화성시 송산면 사강로 183-1",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-beb547c8c32b",
+   "name": "조암시장",
+   "sido": "경기도",
+   "sigungu": "화성시 만세구",
+   "address": "경기도 화성시 우정읍 조암남로 28",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-e4ce18b38213",
+   "name": "거제읍내시장",
+   "sido": "경상남도",
+   "sigungu": "거제시",
+   "address": "경상남도 거제시 거제면 읍내로2길 28",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-72ed1412075f",
+   "name": "거창시장",
+   "sido": "경상남도",
+   "sigungu": "거창군",
+   "address": "경상남도 거창군 거창읍 중앙로 140",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-38be0a92e9fe",
+   "name": "고성시장",
+   "sido": "경상남도",
+   "sigungu": "고성군",
+   "address": "경상남도 고성군 고성읍 중앙로25번길57",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-ee08b3b9c348",
+   "name": "배둔시장",
+   "sido": "경상남도",
+   "sigungu": "고성군",
+   "address": "경상남도 고성군 회화면 배둔로31번길 5",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-f0a700d455f7",
+   "name": "영오시장",
+   "sido": "경상남도",
+   "sigungu": "고성군",
+   "address": "경상남도 고성군 영오면 영회로 527-9",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-7e1710a7a067",
+   "name": "장유전통시장(장유중앙시장)",
+   "sido": "경상남도",
+   "sigungu": "김해시",
+   "address": "경상남도 김해시 장유로 287-22",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-54de019167c2",
+   "name": "진례전통시장",
+   "sido": "경상남도",
+   "sigungu": "김해시",
+   "address": "경상남도 김해시 진례면 송현로 6",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-9e8ef0ce546e",
+   "name": "진영전통시장",
+   "sido": "경상남도",
+   "sigungu": "김해시",
+   "address": "경상남도 김해시 진영읍 진영산복로115번길 9",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-f1b31b97d0d5",
+   "name": "남면공설시장",
+   "sido": "경상남도",
+   "sigungu": "남해군",
+   "address": "경상남도 남해군 남면 남서대로 785-4",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-6297ac35fe4e",
+   "name": "남해전통시장",
+   "sido": "경상남도",
+   "sigungu": "남해군",
+   "address": "경상남도 남해군 남해읍 화전로110",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-89fccf18a2ad",
+   "name": "이동공설시장",
+   "sido": "경상남도",
+   "sigungu": "남해군",
+   "address": "경상남도 남해군 이동면 무림로 63번길 9",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-bc8228cbfec0",
+   "name": "무안시장(무안임시시장)",
+   "sido": "경상남도",
+   "sigungu": "밀양시",
+   "address": "경상남도 밀양시 무안면 사명로 510",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-b5c924d3c687",
+   "name": "밀양아리랑시장",
+   "sido": "경상남도",
+   "sigungu": "밀양시",
+   "address": "경상남도 밀양시 상설시장1길11",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-883de6cf6cdf",
+   "name": "송백시장",
+   "sido": "경상남도",
+   "sigungu": "밀양시",
+   "address": "경상남도 밀양시 산내면 산내로 346-1",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-1337df0409cf",
+   "name": "송지시장",
+   "sido": "경상남도",
+   "sigungu": "밀양시",
+   "address": "경상남도 밀양시 삼랑진읍 외송3길 8-1",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-665efce936da",
+   "name": "수산시장",
+   "sido": "경상남도",
+   "sigungu": "밀양시",
+   "address": "경상남도 밀양시 하남읍 시서상가길 5",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-94f8f42fb1e9",
+   "name": "곤양종합시장",
+   "sido": "경상남도",
+   "sigungu": "사천시",
+   "address": "경상남도 사천시 곤양면 남산로 65",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-4420c0c2e55f",
+   "name": "삼천포종합시장",
+   "sido": "경상남도",
+   "sigungu": "사천시",
+   "address": "경상남도 사천시 동금2길 15",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-6b15c186da52",
+   "name": "삼천포중앙시장",
+   "sido": "경상남도",
+   "sigungu": "사천시",
+   "address": "경상남도 사천시 중앙시장2길 37",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-c8eff9e64006",
+   "name": "서포시장",
+   "sido": "경상남도",
+   "sigungu": "사천시",
+   "address": "경상남도 사천시 서포면 자구로 473",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-38d67e0e602f",
+   "name": "완사시장",
+   "sido": "경상남도",
+   "sigungu": "사천시",
+   "address": "경상남도 사천시 곤명면 완사2길 12",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-390493f566ff",
+   "name": "단계시장",
+   "sido": "경상남도",
+   "sigungu": "산청군",
+   "address": "경상남도 산청군 신등면 신차로 500-3",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-6c9da8960e29",
+   "name": "단성시장",
+   "sido": "경상남도",
+   "sigungu": "산청군",
+   "address": "경상남도 산청군 단성면 목화로 968번길 17",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-3686d070bcfe",
+   "name": "덕산시장",
+   "sido": "경상남도",
+   "sigungu": "산청군",
+   "address": "경상남도 산청군 시천면 남명로 188-5",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-2dd22a921cec",
+   "name": "산청시장",
+   "sido": "경상남도",
+   "sigungu": "산청군",
+   "address": "경상남도 산청군 산청읍 중앙로 16-1",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-db8b4b80c30c",
+   "name": "생초시장",
+   "sido": "경상남도",
+   "sigungu": "산청군",
+   "address": "경상남도 산청군 생초면 생초로 35-30",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-f7f40d78d4d1",
+   "name": "서창시장",
+   "sido": "경상남도",
+   "sigungu": "양산시",
+   "address": "경상남도 양산시 서창서2길 5",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-efa3218691bf",
+   "name": "석계시장",
+   "sido": "경상남도",
+   "sigungu": "양산시",
+   "address": "경상남도 양산시 상북면 삼계4길 2",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-5c82e7682a74",
+   "name": "신평시장",
+   "sido": "경상남도",
+   "sigungu": "양산시",
+   "address": "경상남도 양산시 하북면 신평강변3길 11",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-95fd07b68300",
+   "name": "양산남부시장",
+   "sido": "경상남도",
+   "sigungu": "양산시",
+   "address": "경상남도 양산시 중앙로 133",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-5d92456db9d5",
+   "name": "신반시장",
+   "sido": "경상남도",
+   "sigungu": "의령군",
+   "address": "경상남도 의령군 부림면 신번로9길 11",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-f9f82bd26649",
+   "name": "의령시장",
+   "sido": "경상남도",
+   "sigungu": "의령군",
+   "address": "경상남도 의령군 의령읍 의병로18길 13",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-785f9e51dd7b",
+   "name": "금곡시장",
+   "sido": "경상남도",
+   "sigungu": "진주시",
+   "address": "경상남도 진주시 금곡면 구암두문로 1021-9",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-d2b12b8956e2",
+   "name": "대곡시장",
+   "sido": "경상남도",
+   "sigungu": "진주시",
+   "address": "경상남도 진주시 대곡면 진의로 1079번길 6",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-cfeb7bee9e0d",
+   "name": "문산시장",
+   "sido": "경상남도",
+   "sigungu": "진주시",
+   "address": "경상남도 진주시 문산읍 소문길 68",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-0f01ea3c0ed7",
+   "name": "새서부시장",
+   "sido": "경상남도",
+   "sigungu": "진주시",
+   "address": "경상남도 진주시 진주대로1175번길16-1",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-92a1961f556b",
+   "name": "일반성시장",
+   "sido": "경상남도",
+   "sigungu": "진주시",
+   "address": "경상남도 진주시 일반성면 동부로1993번길 27",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-74fa4ea44e70",
+   "name": "남지시장",
+   "sido": "경상남도",
+   "sigungu": "창녕군",
+   "address": "경상남도 창녕군 남지읍 본동길4",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-d9c120597f5c",
+   "name": "영산시장",
+   "sido": "경상남도",
+   "sigungu": "창녕군",
+   "address": "경상남도 창녕군 영산면 신영산로56",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-03035faa8cdd",
+   "name": "이방정기시장",
+   "sido": "경상남도",
+   "sigungu": "창녕군",
+   "address": "경상남도 창녕군 이방면 이방대학로35-1",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-f80d06477509",
+   "name": "창녕상설시장",
+   "sido": "경상남도",
+   "sigungu": "창녕군",
+   "address": "경상남도 창녕군 창녕읍 시장길 66",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-6e753f519cbe",
+   "name": "진동시장",
+   "sido": "경상남도",
+   "sigungu": "창원시 마산합포구",
+   "address": "경상남도 창원시 마산합포구 진동면 진동시장길 43-7",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-2b8f06934e0a",
+   "name": "상남시장",
+   "sido": "경상남도",
+   "sigungu": "창원시 성산구",
+   "address": "경상남도 창원시 성산구 마디미로28",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-4726d6f77c6d",
+   "name": "소답시장",
+   "sido": "경상남도",
+   "sigungu": "창원시 의창구",
+   "address": "경상남도 창원시 의창구 읍성로33번길 8",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-cd7d430c8ce2",
+   "name": "지귀시장",
+   "sido": "경상남도",
+   "sigungu": "창원시 의창구",
+   "address": "경상남도 창원시 의창구 지귀로119번길 6",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-db5d8d5e8b8b",
+   "name": "경화시장",
+   "sido": "경상남도",
+   "sigungu": "창원시 진해구",
+   "address": "경상남도 창원시 진해구 경화로 38번길",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-c2148f2f478f",
+   "name": "마천시장",
+   "sido": "경상남도",
+   "sigungu": "창원시 진해구",
+   "address": "경상남도 창원시 진해구 웅동로 57번가길 7",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-4a3dbd8edd4f",
+   "name": "웅천시장",
+   "sido": "경상남도",
+   "sigungu": "창원시 진해구",
+   "address": "경상남도 창원시 진해구 웅천중로56번길 8",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-3749c44f6c43",
+   "name": "통영중앙전통시장",
+   "sido": "경상남도",
+   "sigungu": "통영시",
+   "address": "경상남도 통영시 중앙시장1길14-16",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-4bdf1ace94bf",
+   "name": "계천공설시장(계천시장)",
+   "sido": "경상남도",
+   "sigungu": "하동군",
+   "address": "경상남도 하동군 금남면 섬진강대로 977-17",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-0c7b2241c0af",
+   "name": "북천공설시장",
+   "sido": "경상남도",
+   "sigungu": "하동군",
+   "address": "경상남도 하동군 북천면 경서대로 2439-1",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-0d0dda9eec9b",
+   "name": "옥종공설시장",
+   "sido": "경상남도",
+   "sigungu": "하동군",
+   "address": "경상남도 하동군 옥종면 옥종사장길 5",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-c9993ac4af26",
+   "name": "진교공설시장",
+   "sido": "경상남도",
+   "sigungu": "하동군",
+   "address": "경상남도 하동군 진교면 선창길 24",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-310766b7c495",
+   "name": "하동공설시장",
+   "sido": "경상남도",
+   "sigungu": "하동군",
+   "address": "경상남도 하동군 하동읍 시장 1길 12-2",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-5d4b1628cccb",
+   "name": "횡천공설시장(횡천시장)",
+   "sido": "경상남도",
+   "sigungu": "하동군",
+   "address": "경상남도 하동군 횡천면 문화2길 24",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-2ccae27d12bc",
+   "name": "가야상설시장(가야시장)",
+   "sido": "경상남도",
+   "sigungu": "함안군",
+   "address": "경상남도 함안군 가야읍 가야8길8",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-ea0014401afe",
+   "name": "군북공설시장",
+   "sido": "경상남도",
+   "sigungu": "함안군",
+   "address": "경상남도 함안군 군북면 중암8길 27",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-00d58f3718fe",
+   "name": "대산공설시장",
+   "sido": "경상남도",
+   "sigungu": "함안군",
+   "address": "경상남도 함안군 대산면 대산중앙로 219",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-e980f2f7e043",
+   "name": "칠원공설시장",
+   "sido": "경상남도",
+   "sigungu": "함안군",
+   "address": "경상남도 함안군 칠원읍 서남3길 14 (시골막창전문)",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-306c91ed327c",
+   "name": "안의시장",
+   "sido": "경상남도",
+   "sigungu": "함양군",
+   "address": "경상남도 함양군 안의면 약초시장길 25-10",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-69787cda8e56",
+   "name": "지리산함양시장",
+   "sido": "경상남도",
+   "sigungu": "함양군",
+   "address": "경상남도 함양군 함양읍 용평 중앙길 20",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-d3e3bf9f23d0",
+   "name": "가야시장",
+   "sido": "경상남도",
+   "sigungu": "합천군",
+   "address": "경상남도 합천군 가야면 가야시장로 63-15",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-567444f741e8",
+   "name": "삼가시장",
+   "sido": "경상남도",
+   "sigungu": "합천군",
+   "address": "경상남도 합천군 삼가면 일부5길 1",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-f39e67739ad6",
+   "name": "야로시장",
+   "sido": "경상남도",
+   "sigungu": "합천군",
+   "address": "경상남도 합천군 야로면 시장길 7-5",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-3b251c9fa01b",
+   "name": "초계시장",
+   "sido": "경상남도",
+   "sigungu": "합천군",
+   "address": "경상남도 합천군 초계면 내동아막길 3",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-04649252348f",
+   "name": "합천시장",
+   "sido": "경상남도",
+   "sigungu": "합천군",
+   "address": "경상남도 합천군 합천읍 옥산로 53",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-56b288f43d81",
+   "name": "경산공설시장",
+   "sido": "경상북도",
+   "sigungu": "경산시",
+   "address": "경상북도 경산시 경안로31길 19",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-66a9004dadf8",
+   "name": "자인공설시장",
+   "sido": "경상북도",
+   "sigungu": "경산시",
+   "address": "경상북도 경산시 자인면 자인로 206-4",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-8268791683b1",
+   "name": "하양공설시장",
+   "sido": "경상북도",
+   "sigungu": "경산시",
+   "address": "경상북도 경산시 하양읍 대학로 1543",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-60991530fb73",
+   "name": "감포시장",
+   "sido": "경상북도",
+   "sigungu": "경주시",
+   "address": "경상북도 경주시 감포읍 감포로 115",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-858e9ed4e7c4",
+   "name": "건천시장",
+   "sido": "경상북도",
+   "sigungu": "경주시",
+   "address": "경상북도 경주시 건천읍 내서로 1131-1",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-536d87175512",
+   "name": "경주중앙시장",
+   "sido": "경상북도",
+   "sigungu": "경주시",
+   "address": "경상북도 경주시 금성로 295",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-e5b5e3d4d3e3",
+   "name": "북부상가시장",
+   "sido": "경상북도",
+   "sigungu": "경주시",
+   "address": "경상북도 경주시 금성로 396번길 7",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-622bb70389b9",
+   "name": "불국시장",
+   "sido": "경상북도",
+   "sigungu": "경주시",
+   "address": "경상북도 경주시 불국장터길 23-2",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-b34614781cba",
+   "name": "산내시장",
+   "sido": "경상북도",
+   "sigungu": "경주시",
+   "address": "경상북도 경주시 산내면 의곡중앙길 27",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-7deb3f34e471",
+   "name": "서면시장",
+   "sido": "경상북도",
+   "sigungu": "경주시",
+   "address": "경상북도 경주시 서면 내서로 401-5",
+   "type": "5일장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-2da14cceeb87",
+   "name": "안강공설시장",
+   "sido": "경상북도",
+   "sigungu": "경주시",
+   "address": "경상북도 경주시 안강읍 비화중로 3길 26-3",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-510694a91e53",
+   "name": "양남시장",
+   "sido": "경상북도",
+   "sigungu": "경주시",
+   "address": "경상북도 경주시 양남면 하서중앙길 56-28",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-a8be83de8b6d",
+   "name": "양북시장",
+   "sido": "경상북도",
+   "sigungu": "경주시",
+   "address": "경상북도 경주시 문무대왕면 감은로 53-30",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-3bb8526f97a8",
+   "name": "외동시장",
+   "sido": "경상북도",
+   "sigungu": "경주시",
+   "address": "경상북도 경주시 외동읍 입실시장길 8-6",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-9f48781db4ba",
+   "name": "고령대가야시장",
+   "sido": "경상북도",
+   "sigungu": "고령군",
+   "address": "경상북도 고령군 대가야읍 시장3길29",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-d81173d7cb8e",
+   "name": "구미새마을중앙시장",
+   "sido": "경상북도",
+   "sigungu": "구미시",
+   "address": "경상북도 구미시 구미중앙로9길 11",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-0aafa58b8694",
+   "name": "선산봉황시장",
+   "sido": "경상북도",
+   "sigungu": "구미시",
+   "address": "경상북도 구미시 선산읍 단계동길 24",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-437a5dda7eb1",
+   "name": "인동시장",
+   "sido": "경상북도",
+   "sigungu": "구미시",
+   "address": "경상북도 구미시 인동중앙로5길 16-3",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-5fc9801070a0",
+   "name": "장천시장",
+   "sido": "경상북도",
+   "sigungu": "구미시",
+   "address": "경상북도 구미시 장천면 상장5길 4",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-6693e03b1158",
+   "name": "해평공설시장",
+   "sido": "경상북도",
+   "sigungu": "구미시",
+   "address": "경상북도 구미시 해평면 해평시장3길",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-7971fe7c2457",
+   "name": "평화시장",
+   "sido": "경상북도",
+   "sigungu": "김천시",
+   "address": "경상북도 김천시 김천로100",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-b7f05e984f36",
+   "name": "황금시장",
+   "sido": "경상북도",
+   "sigungu": "김천시",
+   "address": "경상북도 김천시 황금시장4길20",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-c44c715cad4b",
+   "name": "가은아자개시장",
+   "sido": "경상북도",
+   "sigungu": "문경시",
+   "address": "경상북도 문경시 가은읍 가은5길 7",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-5114f2030260",
+   "name": "농암장",
+   "sido": "경상북도",
+   "sigungu": "문경시",
+   "address": "경상북도 문경시",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-63a074177f52",
+   "name": "동로장",
+   "sido": "경상북도",
+   "sigungu": "문경시",
+   "address": "경상북도 문경시",
+   "type": "5일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-f8e254c6c5af",
+   "name": "문경전통시장",
+   "sido": "경상북도",
+   "sigungu": "문경시",
+   "address": "경상북도 문경시 문경읍 문희로 41-15",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-63d6faabb788",
+   "name": "문경중앙장",
+   "sido": "경상북도",
+   "sigungu": "문경시",
+   "address": "경상북도 문경시",
+   "type": "5일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-e00049807ff9",
+   "name": "점촌전통시장 (구 신흥시장)",
+   "sido": "경상북도",
+   "sigungu": "문경시",
+   "address": "경상북도 문경시 신흥시장길 19",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-97d5aea4e4f8",
+   "name": "봉화상설시장",
+   "sido": "경상북도",
+   "sigungu": "봉화군",
+   "address": "경상북도 봉화군 봉화읍 내성리 419-20",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-8898914264e4",
+   "name": "억지춘양시장",
+   "sido": "경상북도",
+   "sigungu": "봉화군",
+   "address": "경상북도 봉화군 춘양면 의양로 60",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-9cbc0c1758f4",
+   "name": "상주중앙시장",
+   "sido": "경상북도",
+   "sigungu": "상주시",
+   "address": "경상북도 상주시 남성로35",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-ece847abae5d",
+   "name": "은척시장",
+   "sido": "경상북도",
+   "sigungu": "상주시",
+   "address": "경상북도 상주시 은척면 봉중1길 16-1",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-3bc0420fe12a",
+   "name": "함창시장",
+   "sido": "경상북도",
+   "sigungu": "상주시",
+   "address": "경상북도 상주시 함창읍 함창시장길4514",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-ea63501fcfd0",
+   "name": "화령시장",
+   "sido": "경상북도",
+   "sigungu": "상주시",
+   "address": "경상북도 상주시 화서면 화령남6길 7",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-c1fd5e513d4e",
+   "name": "벽진장",
+   "sido": "경상북도",
+   "sigungu": "성주군",
+   "address": "경상북도 성주군",
+   "type": "5일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-8a88276578be",
+   "name": "성주시장",
+   "sido": "경상북도",
+   "sigungu": "성주군",
+   "address": "경상북도 성주군 성주읍 시장길 43-1",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-692d5b9ba193",
+   "name": "구담공설시장",
+   "sido": "경상북도",
+   "sigungu": "안동시",
+   "address": "경상북도 안동시 풍천면 섬마길 7-9",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-4d926cb38d16",
+   "name": "북문시장",
+   "sido": "경상북도",
+   "sigungu": "안동시",
+   "address": "경상북도 안동시 북문옥정길 25",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-fceca92dc147",
+   "name": "안동서부시장",
+   "sido": "경상북도",
+   "sigungu": "안동시",
+   "address": "경상북도 안동시 대안로 22",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-1de9424d4ad4",
+   "name": "임동장",
+   "sido": "경상북도",
+   "sigungu": "안동시",
+   "address": "경상북도 안동시",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-9ba5c77b8ff5",
+   "name": "정산장",
+   "sido": "경상북도",
+   "sigungu": "안동시",
+   "address": "경상북도 안동시",
+   "type": "5일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-7a3b9d3e514a",
+   "name": "중앙신시장",
+   "sido": "경상북도",
+   "sigungu": "안동시",
+   "address": "경상북도 안동시 대안로98-15",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-9d80d918b367",
+   "name": "천지장",
+   "sido": "경상북도",
+   "sigungu": "안동시",
+   "address": "경상북도 안동시",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-417e0e1afa1e",
+   "name": "풍산공설시장",
+   "sido": "경상북도",
+   "sigungu": "안동시",
+   "address": "경상북도 안동시 풍산읍 하리들길 7-1",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-3f974622dd61",
+   "name": "강구시장",
+   "sido": "경상북도",
+   "sigungu": "영덕군",
+   "address": "경상북도 영덕군 강구면 강구시장1길 8-2",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-f7d8ae38b470",
+   "name": "남정시장",
+   "sido": "경상북도",
+   "sigungu": "영덕군",
+   "address": "경상북도 영덕군 남정면 진불1길 31-3",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-0db8314182c5",
+   "name": "영덕장",
+   "sido": "경상북도",
+   "sigungu": "영덕군",
+   "address": "경상북도 영덕군",
+   "type": "5일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-b4135db2250a",
+   "name": "영해만세시장",
+   "sido": "경상북도",
+   "sigungu": "영덕군",
+   "address": "경상북도 영덕군 영해면 예주시장5길 21",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-6814df5987ba",
+   "name": "영양시장",
+   "sido": "경상북도",
+   "sigungu": "영양군",
+   "address": "경상북도 영양군 영양로 영양읍 시장5길 4",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-eda9a9d9d2a7",
+   "name": "영주장",
+   "sido": "경상북도",
+   "sigungu": "영주시",
+   "address": "경상북도 영주시",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-64a403595fbb",
+   "name": "풍기장",
+   "sido": "경상북도",
+   "sigungu": "영주시",
+   "address": "경상북도 영주시",
+   "type": "5일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-9fb0194df60b",
+   "name": "금호공설시장",
+   "sido": "경상북도",
+   "sigungu": "영천시",
+   "address": "경상북도 영천시 금호읍 금호로 101",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-0fcc7872c52d",
+   "name": "신녕공설시장",
+   "sido": "경상북도",
+   "sigungu": "영천시",
+   "address": "경상북도 영천시 신녕면 본관시장길3",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-241b3c5c8f54",
+   "name": "영천공설시장",
+   "sido": "경상북도",
+   "sigungu": "영천시",
+   "address": "경상북도 영천시 시장4길 52",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-009cdadbca3c",
+   "name": "예천중앙시장",
+   "sido": "경상북도",
+   "sigungu": "예천군",
+   "address": "경상북도 예천군 예천읍 시장로127",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-c8f2244f9cef",
+   "name": "용궁시장",
+   "sido": "경상북도",
+   "sigungu": "예천군",
+   "address": "경상북도 예천군 용궁면 용궁시장길 9",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-bbd3564ba1a4",
+   "name": "풍양시장",
+   "sido": "경상북도",
+   "sigungu": "예천군",
+   "address": "경상북도 예천군 풍양면 낙상2길 37-13",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-463f40b16542",
+   "name": "매화시장",
+   "sido": "경상북도",
+   "sigungu": "울진군",
+   "address": "경상북도 울진군 매화면 매화2길 36-14",
+   "type": "3일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-dc6cd1b15a7e",
+   "name": "울진바지게시장",
+   "sido": "경상북도",
+   "sigungu": "울진군",
+   "address": "경상북도 울진군 울진읍 읍내1길 18 (울진시장)",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-7f884838d58b",
+   "name": "죽변시장",
+   "sido": "경상북도",
+   "sigungu": "울진군",
+   "address": "경상북도 울진군 죽변면 죽변중앙로 168-14",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-36bd67fc618e",
+   "name": "척산시장",
+   "sido": "경상북도",
+   "sigungu": "울진군",
+   "address": "경상북도 울진군 기성면 척산길 51-25",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-3c00cea0a18b",
+   "name": "평해시장",
+   "sido": "경상북도",
+   "sigungu": "울진군",
+   "address": "경상북도 울진군 평해읍 평해6길12",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-3b423b29f215",
+   "name": "후포시장",
+   "sido": "경상북도",
+   "sigungu": "울진군",
+   "address": "경상북도 울진군 후포면 울진대게로21",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-e3bbd1b04527",
+   "name": "흥부시장",
+   "sido": "경상북도",
+   "sigungu": "울진군",
+   "address": "경상북도 울진군 북면 장터길 110-6",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-cf540da508e2",
+   "name": "금성시장",
+   "sido": "경상북도",
+   "sigungu": "의성군",
+   "address": "경상북도 의성군 금성면 탑리길56-1",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-ece3918468de",
+   "name": "다인장",
+   "sido": "경상북도",
+   "sigungu": "의성군",
+   "address": "경상북도 의성군",
+   "type": "5일장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-51906f2f6649",
+   "name": "단촌정기시장",
+   "sido": "경상북도",
+   "sigungu": "의성군",
+   "address": "경상북도 의성군 단촌면 장터길15",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-0086b38c5701",
+   "name": "봉양시장",
+   "sido": "경상북도",
+   "sigungu": "의성군",
+   "address": "경상북도 의성군 봉양면 도리원6길 9-1",
+   "type": "5일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-f581ec8d2d91",
+   "name": "신평장",
+   "sido": "경상북도",
+   "sigungu": "의성군",
+   "address": "경상북도 의성군",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-0b911ffb9d50",
+   "name": "안계공설시장",
+   "sido": "경상북도",
+   "sigungu": "의성군",
+   "address": "경상북도 의성군 안계면 안계시장길 14-11",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-8b7c31c5e0d8",
+   "name": "안평장",
+   "sido": "경상북도",
+   "sigungu": "의성군",
+   "address": "경상북도 의성군",
+   "type": "5일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-0e140cc778fa",
+   "name": "옥산장",
+   "sido": "경상북도",
+   "sigungu": "의성군",
+   "address": "경상북도 의성군",
+   "type": "5일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-9d7f447ce156",
+   "name": "의성공설재래시장",
+   "sido": "경상북도",
+   "sigungu": "의성군",
+   "address": "경상북도 의성군 의성읍 전통시장 1길 12-8",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-5e91c37747c9",
+   "name": "동곡공설시장",
+   "sido": "경상북도",
+   "sigungu": "청도군",
+   "address": "경상북도 청도군 금천면 금천로 41-2",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-9207c9ba3469",
+   "name": "이서장",
+   "sido": "경상북도",
+   "sigungu": "청도군",
+   "address": "경상북도 청도군",
+   "type": "5일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-f7ec5400c28b",
+   "name": "청도공설시장",
+   "sido": "경상북도",
+   "sigungu": "청도군",
+   "address": "경상북도 청도군 청도읍 청도시장1길 21",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-807546dbf00c",
+   "name": "풍각공설시장",
+   "sido": "경상북도",
+   "sigungu": "청도군",
+   "address": "경상북도 청도군 풍각면 송서7길 5",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-5630caf0e9d2",
+   "name": "도평시장",
+   "sido": "경상북도",
+   "sigungu": "청송군",
+   "address": "경상북도 청송군 현동면 도평2길 21",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-51df784f533e",
+   "name": "부남시장",
+   "sido": "경상북도",
+   "sigungu": "청송군",
+   "address": "경상북도 청송군 부남면 대전로142",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-485b22b81fdc",
+   "name": "안덕시장",
+   "sido": "경상북도",
+   "sigungu": "청송군",
+   "address": "경상북도 청송군 안덕면 명당2길",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-0bb7fe9f9c3c",
+   "name": "진보시장",
+   "sido": "경상북도",
+   "sigungu": "청송군",
+   "address": "경상북도 청송군 진보면 진안남2길 9-1",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-dddae0192155",
+   "name": "청송시장",
+   "sido": "경상북도",
+   "sigungu": "청송군",
+   "address": "경상북도 청송군 청송읍 현충로 106",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-54d457805766",
+   "name": "화목시장",
+   "sido": "경상북도",
+   "sigungu": "청송군",
+   "address": "경상북도 청송군 현서면 구산북로57-1",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-2a6fdac2b1f1",
+   "name": "동명장",
+   "sido": "경상북도",
+   "sigungu": "칠곡군",
+   "address": "경상북도 칠곡군",
+   "type": "5일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-860c6a7299c0",
+   "name": "약목장",
+   "sido": "경상북도",
+   "sigungu": "칠곡군",
+   "address": "경상북도 칠곡군",
+   "type": "5일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-a2cba8160665",
+   "name": "왜관시장",
+   "sido": "경상북도",
+   "sigungu": "칠곡군",
+   "address": "경상북도 칠곡군 왜관읍 시장2길 9",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-ab7c090f1e2f",
+   "name": "구룡포시장",
+   "sido": "경상북도",
+   "sigungu": "포항시 남구",
+   "address": "경상북도 포항시 남구 구룡포읍 구룡포길 72-1",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-ad2d4a93717a",
+   "name": "연일전통시장",
+   "sido": "경상북도",
+   "sigungu": "포항시 남구",
+   "address": "경상북도 포항시 남구 연일읍 연일로 159번길 46",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-f28ac55c3e1a",
+   "name": "오천시장",
+   "sido": "경상북도",
+   "sigungu": "포항시 남구",
+   "address": "경상북도 포항시 남구 오천읍 해병로 307번길 26-3",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-01b3229d4c26",
+   "name": "장기장",
+   "sido": "경상북도",
+   "sigungu": "포항시 남구",
+   "address": "경상북도 포항시 남구",
+   "type": "5일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-c701c473a5b5",
+   "name": "기계시장",
+   "sido": "경상북도",
+   "sigungu": "포항시 북구",
+   "address": "경상북도 포항시 북구 기계면 새마을발상지길 7",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-73dccf5e61e3",
+   "name": "기북장",
+   "sido": "경상북도",
+   "sigungu": "포항시 북구",
+   "address": "경상북도 포항시 북구",
+   "type": "5일장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-187fc6955f3a",
+   "name": "죽장장",
+   "sido": "경상북도",
+   "sigungu": "포항시 북구",
+   "address": "경상북도 포항시 북구",
+   "type": "5일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-c5f38b1697c5",
+   "name": "청하시장",
+   "sido": "경상북도",
+   "sigungu": "포항시 북구",
+   "address": "경상북도 포항시 북구 청하면 청하로 200번길 4",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-69b89f52d8dd",
+   "name": "흥해시장",
+   "sido": "경상북도",
+   "sigungu": "포항시 북구",
+   "address": "경상북도 포항시 북구 흥해읍 한동로 61-13",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-923cf563a80b",
+   "name": "군위전통시장",
+   "sido": "대구광역시",
+   "sigungu": "군위군",
+   "address": "대구광역시 군위군 군위읍 중앙6길 4",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-c8129c1b78b0",
+   "name": "의흥시장",
+   "sido": "대구광역시",
+   "sigungu": "군위군",
+   "address": "대구광역시 군위군 의흥면 읍내5길 7",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-1dbd9ab12107",
+   "name": "현풍백년도깨비시장",
+   "sido": "대구광역시",
+   "sigungu": "달성군",
+   "address": "대구광역시 달성군 현풍읍 현풍로 6길 5",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-29a270eba971",
+   "name": "화원시장",
+   "sido": "대구광역시",
+   "sigungu": "달성군",
+   "address": "대구광역시 달성군 화원읍 비슬로512길 66",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-57aa994398d8",
+   "name": "반야월종합시장",
+   "sido": "대구광역시",
+   "sigungu": "동구",
+   "address": "대구광역시 동구 율하동로 143",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-a98f07eeef44",
+   "name": "불로전통시장",
+   "sido": "대구광역시",
+   "sigungu": "동구",
+   "address": "대구광역시 동구 반야월로1길 7",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-11327ae72fe8",
+   "name": "서변중앙시장",
+   "sido": "대구광역시",
+   "sigungu": "북구",
+   "address": "대구광역시 북구 호국로43길 27",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-7850f2223917",
+   "name": "칠곡시장",
+   "sido": "대구광역시",
+   "sigungu": "북구",
+   "address": "대구광역시 북구 칠곡중앙대로 526",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-bf68c823ea92",
+   "name": "신탄진시장",
+   "sido": "대전광역시",
+   "sigungu": "대덕구",
+   "address": "대전광역시 대덕구 석봉로43번길 37",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-8ec4eac8753e",
+   "name": "정이있는구포시장",
+   "sido": "부산광역시",
+   "sigungu": "북구",
+   "address": "부산광역시 북구 구포시장2길 8",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-ab44bd1d28ba",
+   "name": "하단오일상설시장",
+   "sido": "부산광역시",
+   "sigungu": "사하구",
+   "address": "부산광역시 사하구 제석로17번길 1",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-20f2d968dd41",
+   "name": "대림시장",
+   "sido": "서울특별시",
+   "sigungu": "은평구",
+   "address": "서울특별시 은평구 응암로4길 22",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-96fb85d3ced9",
+   "name": "부강전통시장",
+   "sido": "세종특별자치시",
+   "sigungu": "세종시",
+   "address": "세종특별자치시 부강면 부강5길 18",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-e6637a2b5e7c",
+   "name": "세종대평시장",
+   "sido": "세종특별자치시",
+   "sigungu": "세종시",
+   "address": "세종특별자치시 금남면 대평시장1길 17-2",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-7f4e9d1b93bc",
+   "name": "세종전통시장",
+   "sido": "세종특별자치시",
+   "sigungu": "세종시",
+   "address": "세종특별자치시 조치원읍 조치원8길 42",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-bc52e1b05446",
+   "name": "전의왕의물시장",
+   "sido": "세종특별자치시",
+   "sigungu": "세종시",
+   "address": "세종특별자치시 전의면 장터길33",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-d2b8511048a6",
+   "name": "호계공설시장",
+   "sido": "울산광역시",
+   "sigungu": "북구",
+   "address": "울산광역시 북구 호계3길 17-11",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-6bfeffcc0af7",
+   "name": "곡천공설시장",
+   "sido": "울산광역시",
+   "sigungu": "울주군",
+   "address": "울산광역시 울주군 웅촌면 곡천동문길 20-22",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-7a9b09db6f3f",
+   "name": "남창옹기종기시장",
+   "sido": "울산광역시",
+   "sigungu": "울주군",
+   "address": "울산광역시 울주군 온양읍 남창장터길 24",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-cb93058496ed",
+   "name": "덕신1차시장",
+   "sido": "울산광역시",
+   "sigungu": "울주군",
+   "address": "울산광역시 울주군 온산읍 덕신리 1280-21",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-0485c8b7bec6",
+   "name": "덕신2차시장",
+   "sido": "울산광역시",
+   "sigungu": "울주군",
+   "address": "울산광역시 울주군 온산읍 신온7길 69",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-a928becfb7b9",
+   "name": "덕하시장(덕하공설시장)",
+   "sido": "울산광역시",
+   "sigungu": "울주군",
+   "address": "울산광역시 울주군 청량읍 덕하장터길 9",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-85b8160cb992",
+   "name": "봉계공설시장",
+   "sido": "울산광역시",
+   "sigungu": "울주군",
+   "address": "울산광역시 울주군 두동면 계명3길 9",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-11c6bf57c53d",
+   "name": "언양알프스시장",
+   "sido": "울산광역시",
+   "sigungu": "울주군",
+   "address": "울산광역시 울주군 언양읍 장터1길 12-1",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-ebcc7a0d3ad5",
+   "name": "우정전통시장",
+   "sido": "울산광역시",
+   "sigungu": "중구",
+   "address": "울산광역시 중구 당산4길 21",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-8984da9b4fd2",
+   "name": "태화종합시장",
+   "sido": "울산광역시",
+   "sigungu": "중구",
+   "address": "울산광역시 중구 화진길 20-4",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-6680f2a5b395",
+   "name": "강화풍물시장",
+   "sido": "인천광역시",
+   "sigungu": "강화군",
+   "address": "인천광역시 강화군 강화읍 중앙로 17-9",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-6fc12971cca6",
+   "name": "강진읍시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "강진군",
+   "address": "전라남도 강진군 강진읍 동성로 17",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-e2869fb65276",
+   "name": "마량시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "강진군",
+   "address": "전라남도 강진군 마량면 마량5길 11",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-81744187666b",
+   "name": "병영시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "강진군",
+   "address": "전라남도 강진군 병영면 남삼인길 6",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-e98f2f3f8787",
+   "name": "고흥전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "고흥군",
+   "address": "전라남도 고흥군 고흥읍 시장길 1",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-e3b41cfb2816",
+   "name": "과역전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "고흥군",
+   "address": "전라남도 고흥군 과역면 시장안길 15",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-783a40fee569",
+   "name": "녹동전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "고흥군",
+   "address": "전라남도 고흥군 도양읍 녹동남촌1길 24",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-e012d178ce20",
+   "name": "도화전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "고흥군",
+   "address": "전라남도 고흥군 도화면 동신길 16-6",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-ae837132538a",
+   "name": "동강전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "고흥군",
+   "address": "전라남도 고흥군 원유둔4길 13-1",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-7417c9b76419",
+   "name": "곡성기차마을전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "곡성군",
+   "address": "전라남도 곡성군 곡성읍 곡성로 856",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-dc21c4d7b33b",
+   "name": "석곡전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "곡성군",
+   "address": "전라남도 곡성군 석곡면 석곡로 70",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-3d6af7666b9e",
+   "name": "옥과5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "곡성군",
+   "address": "전라남도 곡성군 옥과면 리문8길 14",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-12dbb3d02c28",
+   "name": "비아5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "광산구",
+   "address": "광주광역시 광산구 비아중앙로 26-1",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-03dec692c937",
+   "name": "송정5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "광산구",
+   "address": "광주광역시 광산구 광산로30번길 65",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-35d921f959cf",
+   "name": "광양5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "광양시",
+   "address": "전라남도 광양시 광양읍 백운로 3",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-94ff7f556302",
+   "name": "옥곡5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "광양시",
+   "address": "전라남도 광양시 옥곡면 큰골1길 2-26",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-29f3cf011d92",
+   "name": "구례5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "구례군",
+   "address": "전라남도 구례군 구례읍 5일시장작은길 20",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-db27bf50f0a6",
+   "name": "공산5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "나주시",
+   "address": "전라남도 나주시 공산면 덕음로 3-1",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-d157206da2f8",
+   "name": "나주목사고을시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "나주시",
+   "address": "전라남도 나주시 청동길 14",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-723a321a3cad",
+   "name": "남평5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "나주시",
+   "address": "전라남도 나주시 남평읍 지석로 21",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-7d7d58013924",
+   "name": "다시5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "나주시",
+   "address": "전라남도 나주시 다시면 다시로 168-72",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-26b4a0348e5f",
+   "name": "영산포풍물시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "나주시",
+   "address": "전라남도 나주시 풍물시장2길 12-14",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-569d452a7d50",
+   "name": "창평전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "담양군",
+   "address": "전라남도 담양군 창평면 사동길 14-25",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-ad54fcef1d11",
+   "name": "무안전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "무안군",
+   "address": "전라남도 무안군 무안읍 승달로 11",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-8b97d3fb6ae2",
+   "name": "일로전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "무안군",
+   "address": "전라남도 무안군 일로읍 시장길 11-22",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-1ce0bcc9267d",
+   "name": "녹차골보성향토시장(보성읍5일시장)",
+   "sido": "전남광주통합특별시",
+   "sigungu": "보성군",
+   "address": "전라남도 보성군 보성읍 현충로 42-1",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-9d61b1b4ac71",
+   "name": "벌교전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "보성군",
+   "address": "전라남도 보성군 벌교읍 시장1길 10",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-74fe3eebfbe8",
+   "name": "복내5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "보성군",
+   "address": "전라남도 보성군 복내면 송재로 1838-12",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-6aaf1d4dfa05",
+   "name": "조성5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "보성군",
+   "address": "전라남도 보성군 조성면 조성로 90-6",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-cdeb25d18445",
+   "name": "말바우시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "북구",
+   "address": "광주광역시 북구 동문대로97번길 55",
+   "type": "상설장+4일장",
+   "days": [
+    2,
+    4,
+    7,
+    9,
+    12,
+    14,
+    17,
+    19,
+    22,
+    24,
+    27,
+    29
+   ],
+   "cycleText": "2·4·7·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-92c024b7af10",
+   "name": "괴목시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "순천시",
+   "address": "전라남도 순천시 황전면 괴목길 17",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-5db5be7a8ff4",
+   "name": "순천시아랫장(순천아랫장)",
+   "sido": "전남광주통합특별시",
+   "sigungu": "순천시",
+   "address": "전라남도 순천시 장평로 60",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-867e1f911a96",
+   "name": "승주시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "순천시",
+   "address": "전라남도 순천시 승주읍 승주장길 14",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-85ef294f82df",
+   "name": "웃장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "순천시",
+   "address": "전라남도 순천시 북문길 40",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-963a913001f9",
+   "name": "주암시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "순천시",
+   "address": "전라남도 순천시 주암면 주암호길 5-1",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-6271d0095bb1",
+   "name": "지도 전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "신안군",
+   "address": "전라남도 신안군 지도읍 읍내길 16-20",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-ee44cfe9889d",
+   "name": "여수서시장주변시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "여수시",
+   "address": "전라남도 여수시 중앙로 3-2",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-d4766bdd7b86",
+   "name": "영광고추특화시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "영광군",
+   "address": "전라남도 영광군 영광읍 신남로 100-25",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-250c52b51269",
+   "name": "독천5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "영암군",
+   "address": "전라남도 영암군 미암면 독천1길 19",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-904825c750f7",
+   "name": "시종5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "영암군",
+   "address": "전라남도 영암군 시종면 내동중앙로 26",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-db6ed38f42f0",
+   "name": "신북5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "영암군",
+   "address": "전라남도 영암군 신북면 황금동로 78",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-7f0d3c61d1fe",
+   "name": "영암5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "영암군",
+   "address": "전라남도 영암군 영암읍 오일시장길 28",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-e4cdcf67bb5d",
+   "name": "완도남양시장(구 완도종합시장)",
+   "sido": "전남광주통합특별시",
+   "sigungu": "완도군",
+   "address": "전라남도 완도군 완도읍 개포로56번길 16-4",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-541b3b5ca38d",
+   "name": "사거리시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "장성군",
+   "address": "전라남도 장성군 북이면 사남북길 22",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-3fba72ed863c",
+   "name": "사창시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "장성군",
+   "address": "전라남도 장성군 삼계면 사창로 81-2",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-a02ef554f81c",
+   "name": "황룡시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "장성군",
+   "address": "전라남도 장성군 황룡면 삼월길 5",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-2b0ba5d6e37d",
+   "name": "대덕읍전통시장(대덕시장)",
+   "sido": "전남광주통합특별시",
+   "sigungu": "장흥군",
+   "address": "전라남도 장흥군 대덕읍 거정2길 10",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-cd802293809a",
+   "name": "용산시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "장흥군",
+   "address": "전라남도 장흥군 용산면 용인길 4",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-e1ee509cbfcf",
+   "name": "장평시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "장흥군",
+   "address": "전라남도 장흥군 장평면 장택길 13",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-1c40618576a2",
+   "name": "정남진장흥토요시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "장흥군",
+   "address": "전라남도 장흥군 장흥읍 토요시장1길 53",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-d9600ccf5675",
+   "name": "천관산관광시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "장흥군",
+   "address": "전라남도 장흥군 관산읍 칠관로 1559-4",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-1eaabf998933",
+   "name": "진도읍조금시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "진도군",
+   "address": "전라남도 진도군 진도읍 조금시장길 25",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-ff4a3f3f194f",
+   "name": "월야시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "함평군",
+   "address": "전라남도 함평군 월야면 밀재로 1504-5",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-5c996fbbc68a",
+   "name": "함평천지전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "함평군",
+   "address": "전라남도 함평군 함평읍 시장길 49",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-f6dd9d0787d8",
+   "name": "해보시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "함평군",
+   "address": "전라남도 함평군 해보면 밀재로 1274-12",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-99f9cf718d8e",
+   "name": "남리5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "해남군",
+   "address": "전라남도 해남군 황산면 시등로 111-11",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-63c8b1f2cb90",
+   "name": "북평면남창5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "해남군",
+   "address": "전라남도 해남군 북평면 달량진길 48-11",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-b9c32c83d766",
+   "name": "송지산정5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "해남군",
+   "address": "전라남도 해남군 송지면 산정1길 96",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-48f866dc7015",
+   "name": "우수영5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "해남군",
+   "address": "전라남도 해남군 문내면 동외리 919-17",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-44bf999d62f5",
+   "name": "좌일5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "해남군",
+   "address": "전라남도 해남군 북일면 만월길 26-1",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-17218664636b",
+   "name": "해남읍5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "해남군",
+   "address": "전라남도 해남군 해남읍 중앙2로 76",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-bf750d291d87",
+   "name": "화원5일시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "해남군",
+   "address": "전라남도 해남군 화원면 금평리 239",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-c149e7c6c798",
+   "name": "능주전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "화순군",
+   "address": "전라남도 화순군 능주면 학포로 1955",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-dfbd5575b33c",
+   "name": "동복전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "화순군",
+   "address": "전라남도 화순군 동복면 동복시장길 19",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-632006a89636",
+   "name": "사평전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "화순군",
+   "address": "전라남도 화순군 사평면 사평길 26",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-124ceb88e18e",
+   "name": "이양전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "화순군",
+   "address": "전라남도 화순군 이양면 이양로 29-19",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-484f42c1eefe",
+   "name": "화순고인돌전통시장",
+   "sido": "전남광주통합특별시",
+   "sigungu": "화순군",
+   "address": "전라남도 화순군 화순읍 시장길 42",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-892037bfa215",
+   "name": "고창전통시장",
+   "sido": "전북특별자치도",
+   "sigungu": "고창군",
+   "address": "전북특별차치도 고창군 고창읍 동리로 62-11",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-82f09aa80439",
+   "name": "대산전통시장",
+   "sido": "전북특별자치도",
+   "sigungu": "고창군",
+   "address": "전북특별차치도 고창군 대산면 공음대산로 935",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-9e41d153e7b5",
+   "name": "무장전통시장",
+   "sido": "전북특별자치도",
+   "sigungu": "고창군",
+   "address": "전북특별차치도 고창군 무장면 왕제산로 725",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-05f33671f05a",
+   "name": "상하전통시장",
+   "sido": "전북특별자치도",
+   "sigungu": "고창군",
+   "address": "전북특별차치도 고창군 상하면 상하1길 8-3",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-3a072478db63",
+   "name": "해리전통시장",
+   "sido": "전북특별자치도",
+   "sigungu": "고창군",
+   "address": "전북특별차치도 고창군 해리면 해리중앙로 64-12",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-2ed6071e61da",
+   "name": "흥덕전통시장",
+   "sido": "전북특별자치도",
+   "sigungu": "고창군",
+   "address": "전북특별차치도 고창군 흥덕면 흥덕시장길 3",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-cb38f5077e3a",
+   "name": "대야전통시장",
+   "sido": "전북특별자치도",
+   "sigungu": "군산시",
+   "address": "전북특별차치도 군산시 대야면 대야시장로 7-1",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-126490e30e1b",
+   "name": "김제전통시장",
+   "sido": "전북특별자치도",
+   "sigungu": "김제시",
+   "address": "전북특별차치도 김제시 사정거리1길20",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-21549e81ed4f",
+   "name": "원평공설시장(김제원평시장)",
+   "sido": "전북특별자치도",
+   "sigungu": "김제시",
+   "address": "전북특별차치도 김제시 금산면 원평6길 39-10",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-f601304d519b",
+   "name": "남원공설시장",
+   "sido": "전북특별자치도",
+   "sigungu": "남원시",
+   "address": "전북특별차치도 남원시 의총로 51",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-c77f0af43447",
+   "name": "남원인월시장",
+   "sido": "전북특별자치도",
+   "sigungu": "남원시",
+   "address": "전북특별차치도 남원시 인월면 인월로 65-3",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-a468a99d1874",
+   "name": "무주시장(반딧불장터)",
+   "sido": "전북특별자치도",
+   "sigungu": "무주군",
+   "address": "전북특별차치도 무주군 무주읍 장터로 2",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-faff1a6a4c19",
+   "name": "무풍시장(대덕산장터)",
+   "sido": "전북특별자치도",
+   "sigungu": "무주군",
+   "address": "전북특별차치도 무주군 무풍면 현내로 213",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-d6d0f0411d10",
+   "name": "설천시장(삼도봉장터)",
+   "sido": "전북특별자치도",
+   "sigungu": "무주군",
+   "address": "전북특별차치도 무주군 설천면 삼도봉로 11",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-a03863e4416f",
+   "name": "안성시장(덕유산장터)",
+   "sido": "전북특별자치도",
+   "sigungu": "무주군",
+   "address": "전북특별차치도 무주군 안성면 칠연로 38",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-7cf10efc9af5",
+   "name": "줄포시장",
+   "sido": "전북특별자치도",
+   "sigungu": "부안군",
+   "address": "전북특별차치도 부안군 줄포면 부안로 865",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-1eadb4cebdb1",
+   "name": "동계시장",
+   "sido": "전북특별자치도",
+   "sigungu": "순창군",
+   "address": "전북특별차치도 순창군 동계면 동계로 22",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-0a2a5ac41d05",
+   "name": "순창시장",
+   "sido": "전북특별자치도",
+   "sigungu": "순창군",
+   "address": "전북특별차치도 순창군 순창읍 남계로 58",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-f6a0e2de627e",
+   "name": "봉동시장",
+   "sido": "전북특별자치도",
+   "sigungu": "완주군",
+   "address": "전북특별차치도 완주군 봉동읍 봉동동서로 134-5",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-a72cf0e8cf86",
+   "name": "삼례시장",
+   "sido": "전북특별자치도",
+   "sigungu": "완주군",
+   "address": "전북특별차치도 완주군 삼례읍 삼봉로 6",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-7b9bc02485ea",
+   "name": "북부시장",
+   "sido": "전북특별자치도",
+   "sigungu": "익산시",
+   "address": "전북특별차치도 익산시 인북로 219",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-fc8e68552e99",
+   "name": "여산시장",
+   "sido": "전북특별자치도",
+   "sigungu": "익산시",
+   "address": "전북특별차치도 익산시 서촌2길 22-1",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-478b53f89cc8",
+   "name": "익산금마시장",
+   "sido": "전북특별자치도",
+   "sigungu": "익산시",
+   "address": "전북특별차치도 익산시 금마면 고도길 58",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-83bc007c82fb",
+   "name": "익산장(익산북부장)",
+   "sido": "전북특별자치도",
+   "sigungu": "익산시",
+   "address": "전북특별차치도 익산시 인북로 11길 27",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-088db905588c",
+   "name": "함열시장",
+   "sido": "전북특별자치도",
+   "sigungu": "익산시",
+   "address": "전북특별차치도 익산시 함열읍 2길 8",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-0bc22d677a50",
+   "name": "황등시장",
+   "sido": "전북특별자치도",
+   "sigungu": "익산시",
+   "address": "전북특별차치도 익산시 석재길 22",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-f3ea8df93e3b",
+   "name": "강진시장",
+   "sido": "전북특별자치도",
+   "sigungu": "임실군",
+   "address": "전북특별차치도 임실군 강진면 호국로 14-12",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-987e5938b6ab",
+   "name": "관촌시장",
+   "sido": "전북특별자치도",
+   "sigungu": "임실군",
+   "address": "전북특별차치도 임실군 관촌면 사선1길 70-3",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-7e89b0045765",
+   "name": "임실시장",
+   "sido": "전북특별자치도",
+   "sigungu": "임실군",
+   "address": "전북특별차치도 임실군 임실읍 운수로 26",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-b1a27869756c",
+   "name": "산서시장",
+   "sido": "전북특별자치도",
+   "sigungu": "장수군",
+   "address": "전북특별차치도 장수군 산서면 보산로 1864-11",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-b7a1bef8fea5",
+   "name": "장계시장",
+   "sido": "전북특별자치도",
+   "sigungu": "장수군",
+   "address": "전북특별차치도 장수군 장계면 시장천변길 36",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-2329317c147d",
+   "name": "장수시장",
+   "sido": "전북특별자치도",
+   "sigungu": "장수군",
+   "address": "전북특별차치도 장수군 장수읍 시장로 11",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-478934d0a7d4",
+   "name": "신태인시장",
+   "sido": "전북특별자치도",
+   "sigungu": "정읍시",
+   "address": "전북특별차치도 정읍시 신태인읍 신태인2길 14",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-b7a9bffc78a4",
+   "name": "진안고원시장",
+   "sido": "전북특별자치도",
+   "sigungu": "진안군",
+   "address": "전북특별차치도 진안군 진안읍시장1길16",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-76ff3f408dde",
+   "name": "고성오일시장",
+   "sido": "제주특별자치도",
+   "sigungu": "서귀포시",
+   "address": "제주특별자치도 서귀포시 성산읍 고성오조로 93",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-5a5e705c6da0",
+   "name": "대정오일시장",
+   "sido": "제주특별자치도",
+   "sigungu": "서귀포시",
+   "address": "제주특별자치도 서귀포시 대정읍 신영로36번길 65",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-7bc5195a88b5",
+   "name": "서귀포향토오일시장",
+   "sido": "제주특별자치도",
+   "sigungu": "서귀포시",
+   "address": "제주특별자치도 서귀포시 토평서로11번길 142",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-9c244fae4700",
+   "name": "중문오일시장",
+   "sido": "제주특별자치도",
+   "sigungu": "서귀포시",
+   "address": "제주특별자치도 서귀포시 천제연로188번길 12",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-45afe93fce7c",
+   "name": "표선오일시장",
+   "sido": "제주특별자치도",
+   "sigungu": "서귀포시",
+   "address": "제주특별자치도 서귀포시 표선면 표선동서로 203-1",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-1ad9669f898b",
+   "name": "세화오일시장",
+   "sido": "제주특별자치도",
+   "sigungu": "제주시",
+   "address": "제주특별자치도 제주시 구좌읍 해맞이해안로 1412",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-9c497e0c9eb0",
+   "name": "제주시민속오일시장",
+   "sido": "제주특별자치도",
+   "sigungu": "제주시",
+   "address": "제주특별자치도 제주시 오일장서길 26",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-1604ab86a3fa",
+   "name": "한림민속오일시장(한림오일시장)",
+   "sido": "제주특별자치도",
+   "sigungu": "제주시",
+   "address": "제주특별자치도 제주시 한림읍 한수풀로4길 10",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-c67b4e8c0850",
+   "name": "함덕오일시장",
+   "sido": "제주특별자치도",
+   "sigungu": "제주시",
+   "address": "제주특별자치도 제주시 조천읍 함덕16길 15-13",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-6572f2d11b62",
+   "name": "공주산성시장",
+   "sido": "충청남도",
+   "sigungu": "공주시",
+   "address": "충청남도 공주시 용당길 22",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-6bad2a0f05b6",
+   "name": "유구시장",
+   "sido": "충청남도",
+   "sigungu": "공주시",
+   "address": "충청남도 공주시 유구읍 시장길 28",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-530dd48dba65",
+   "name": "금산수삼센타",
+   "sido": "충청남도",
+   "sigungu": "금산군",
+   "address": "충청남도 금산군 금산읍 인삼약초로 24",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-92e6ea417004",
+   "name": "금산인삼전통시장",
+   "sido": "충청남도",
+   "sigungu": "금산군",
+   "address": "충청남도 금산군 금산읍 건삼전1길 20-8",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-0c781b26926f",
+   "name": "마전시장",
+   "sido": "충청남도",
+   "sigungu": "금산군",
+   "address": "충청남도 금산군 추부면 마전1길 38",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-33a452e3c2fa",
+   "name": "강경대흥시장",
+   "sido": "충청남도",
+   "sigungu": "논산시",
+   "address": "충청남도 논산시 강경읍 대흥로 23- 1",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-47d3f2455946",
+   "name": "연산전통시장",
+   "sido": "충청남도",
+   "sigungu": "논산시",
+   "address": "충청남도 논산시 연산면 연산4길 10-8",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-b22832d94ef4",
+   "name": "당진전통시장",
+   "sido": "충청남도",
+   "sigungu": "당진시",
+   "address": "충청남도 당진시 당진시장길 100",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-aa7db5ecc4e3",
+   "name": "신평시장",
+   "sido": "충청남도",
+   "sigungu": "당진시",
+   "address": "충청남도 당진시 신평면 신평로 804-1",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-86397e56345b",
+   "name": "합덕전통시장",
+   "sido": "충청남도",
+   "sigungu": "당진시",
+   "address": "충청남도 당진시 합덕읍 버그내2길 128-42",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-e41e83402746",
+   "name": "보령중앙시장",
+   "sido": "충청남도",
+   "sigungu": "보령시",
+   "address": "충청남도 보령시 중앙시장1길 25-1",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-7cc4887024bd",
+   "name": "웅천시장",
+   "sido": "충청남도",
+   "sigungu": "보령시",
+   "address": "충청남도 보령시 웅천읍 장터4길 24",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-326569b2a2f1",
+   "name": "부여시장",
+   "sido": "충청남도",
+   "sigungu": "부여군",
+   "address": "충청남도 부여군 부여읍 성왕로173번길 12",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-60c7cedf9e47",
+   "name": "홍산시장",
+   "sido": "충청남도",
+   "sigungu": "부여군",
+   "address": "충청남도 부여군 홍산면 홍산시장로 45-10",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-6c74124358dd",
+   "name": "태안동부시장(태안특산물전통시장)",
+   "sido": "충청남도",
+   "sigungu": "서산시",
+   "address": "충청남도 서산시 시장4길 32",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-36a7c68fed34",
+   "name": "장항전통시장",
+   "sido": "충청남도",
+   "sigungu": "서천군",
+   "address": "충청남도 서천군 장항읍 성화로 104",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-5583952f09d7",
+   "name": "둔포전통시장(둔포시장)",
+   "sido": "충청남도",
+   "sigungu": "아산시",
+   "address": "충청남도 아산시 둔포면 둔포면로 25번길 15",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-3ba7336b7641",
+   "name": "온양온천시장(온양전통시장)",
+   "sido": "충청남도",
+   "sigungu": "아산시",
+   "address": "충청남도 아산시 시장길 29",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-65e8e731fdb6",
+   "name": "고덕시장",
+   "sido": "충청남도",
+   "sigungu": "예산군",
+   "address": "충청남도 예산군 고덕면 용고길 342",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-1fe59e8ba013",
+   "name": "광시시장",
+   "sido": "충청남도",
+   "sigungu": "예산군",
+   "address": "충청남도 예산군 광시면 예당로 165-22",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-9e3eb9fb925a",
+   "name": "덕산시장",
+   "sido": "충청남도",
+   "sigungu": "예산군",
+   "address": "충청남도 예산군 덕산면 읍내서길 2-1",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-97435b6346ab",
+   "name": "삽교시장",
+   "sido": "충청남도",
+   "sigungu": "예산군",
+   "address": "충청남도 예산군 삽교읍 두리3길 50-6",
+   "type": "상설장+5일장",
+   "days": [],
+   "cycleText": "",
+   "checking": true
+  },
+  {
+   "id": "m-2379deef09c9",
+   "name": "역전시장",
+   "sido": "충청남도",
+   "sigungu": "예산군",
+   "address": "충청남도 예산군 예산읍 역전로 84",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-38c17fe2b7af",
+   "name": "예산시장",
+   "sido": "충청남도",
+   "sigungu": "예산군",
+   "address": "충청남도 예산군 예산읍 형제고개로 967",
+   "type": "5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-260a6dc2c814",
+   "name": "병천시장",
+   "sido": "충청남도",
+   "sigungu": "천안시 동남구",
+   "address": "충청남도 천안시 동남구 병천면 아우내장터1길 46",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-2864615084cd",
+   "name": "성환이화시장",
+   "sido": "충청남도",
+   "sigungu": "천안시 서북구",
+   "address": "충청남도 천안시 서북구 성환읍 종합시장길 17",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-f1dd0e81ad27",
+   "name": "정산시장",
+   "sido": "충청남도",
+   "sigungu": "청양군",
+   "address": "충청남도 청양군 정산면 정현길 54",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-05f5b4d9348d",
+   "name": "청양전통시장",
+   "sido": "충청남도",
+   "sigungu": "청양군",
+   "address": "충청남도 청양군 청양읍 칠갑산로6길 6",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-290019434d98",
+   "name": "갈산전통시장",
+   "sido": "충청남도",
+   "sigungu": "홍성군",
+   "address": "충청남도 홍성군 갈산면 상촌로 29",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-ccada47d9bba",
+   "name": "광천문화시장",
+   "sido": "충청남도",
+   "sigungu": "홍성군",
+   "address": "충청남도 홍성군 광천읍 광천로323번길 15-1",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-e2e2cec6e12f",
+   "name": "광천전통시장",
+   "sido": "충청남도",
+   "sigungu": "홍성군",
+   "address": "충청남도 홍성군 광천읍 광천로 285",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-4f283419514a",
+   "name": "홍성전통시장",
+   "sido": "충청남도",
+   "sigungu": "홍성군",
+   "address": "충청남도 홍성군 홍성읍 홍성천길 242",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-867cb4127ce1",
+   "name": "괴산전통시장",
+   "sido": "충청북도",
+   "sigungu": "괴산군",
+   "address": "충청북도 괴산군 괴산읍 읍내로 15길8-8",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-7ed195f47885",
+   "name": "목도재래시장",
+   "sido": "충청북도",
+   "sigungu": "괴산군",
+   "address": "충청북도 괴산군 불정면 목도로4길 11",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-9478cedd593a",
+   "name": "연풍전통시장",
+   "sido": "충청북도",
+   "sigungu": "괴산군",
+   "address": "충청북도 괴산군 연풍면 향교로홍문길 5",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-816cb92f8875",
+   "name": "청천전통시장",
+   "sido": "충청북도",
+   "sigungu": "괴산군",
+   "address": "충청북도 괴산군 청천면 청천2길 10",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-b26b37dc87bf",
+   "name": "단양구경시장(단양인정시장)",
+   "sido": "충청북도",
+   "sigungu": "단양군",
+   "address": "충청북도 단양군 단양읍 도전5길 31",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-0350eacbc2e9",
+   "name": "매포전통시장(매포재래시장)",
+   "sido": "충청북도",
+   "sigungu": "단양군",
+   "address": "충청북도 단양군 매포읍 평동24길 8",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-73bda363dd79",
+   "name": "마로관기시장(관기재래시장)",
+   "sido": "충청북도",
+   "sigungu": "보은군",
+   "address": "충청북도 보은군 마로면 관기3길 6-7",
+   "type": "4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-c489d73299cb",
+   "name": "보은전통시장",
+   "sido": "충청북도",
+   "sigungu": "보은군",
+   "address": "충청북도 보은군 보은읍 삼산로 17-1",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-973a6b4c0fe2",
+   "name": "삼승원남시장(원남재래시장)",
+   "sido": "충청북도",
+   "sigungu": "보은군",
+   "address": "충청북도 보은군 삼승면 삼승탄부로 12",
+   "type": "3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-29bdb8093127",
+   "name": "회인재래시장",
+   "sido": "충청북도",
+   "sigungu": "보은군",
+   "address": "충청북도 보은군 회인면 회인로 34",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-bf10ee06b35c",
+   "name": "영동전통시장",
+   "sido": "충청북도",
+   "sigungu": "영동군",
+   "address": "충청북도 영동군 영동읍 계산리 694-13",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-992c62112923",
+   "name": "감곡시장",
+   "sido": "충청북도",
+   "sigungu": "음성군",
+   "address": "충청북도 음성군 감곡면 장감로 132번길 22",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-5c85e4d278fc",
+   "name": "대소시장",
+   "sido": "충청북도",
+   "sigungu": "음성군",
+   "address": "충청북도 음성군 대소면 오산로 36",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-e94e5dad648a",
+   "name": "무극시장",
+   "sido": "충청북도",
+   "sigungu": "음성군",
+   "address": "충청북도 음성군 금왕읍 무극로308번길 12-2",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-db69eacd8da7",
+   "name": "삼성시장",
+   "sido": "충청북도",
+   "sigungu": "음성군",
+   "address": "충청북도 음성군 삼성면 대성로 608-2",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-4c81581d8cf1",
+   "name": "음성시장",
+   "sido": "충청북도",
+   "sigungu": "음성군",
+   "address": "충청북도 음성군 음성읍 문화1길 14",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-524c4fb57002",
+   "name": "덕산면전통시장",
+   "sido": "충청북도",
+   "sigungu": "제천시",
+   "address": "충청북도 제천시 덕산면 약초로 3길 24",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-ccdb8ea17d1f",
+   "name": "박달재전통시장",
+   "sido": "충청북도",
+   "sigungu": "제천시",
+   "address": "충청북도 제천시 백운면 평동로 4-8",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-c7675f7223a1",
+   "name": "제천역전한마음시장",
+   "sido": "충청북도",
+   "sigungu": "제천시",
+   "address": "충청북도 제천시 내토로 28길 12",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-e4d399c8dbdf",
+   "name": "증평장뜰시장",
+   "sido": "충청북도",
+   "sigungu": "증평군",
+   "address": "충청북도 증평군 증평읍 장뜰로 58-1",
+   "type": "상설장",
+   "days": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26
+   ],
+   "cycleText": "1·6일장",
+   "checking": false
+  },
+  {
+   "id": "m-738d0bda24ad",
+   "name": "운수대통 생거진천전통시장",
+   "sido": "충청북도",
+   "sigungu": "진천군",
+   "address": "충청북도 진천군 진천읍 원덕로390",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-d879059bf180",
+   "name": "진천중앙시장",
+   "sido": "충청북도",
+   "sigungu": "진천군",
+   "address": "충청북도 진천군 진천읍 중앙동6길 23",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-0bb34dbd585c",
+   "name": "육거리종합시장",
+   "sido": "충청북도",
+   "sigungu": "청주시 상당구",
+   "address": "충청북도 청주시 상당구 청남로2197번길 42",
+   "type": "상설장",
+   "days": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+   ],
+   "cycleText": "2·7일장",
+   "checking": false
+  },
+  {
+   "id": "m-54310aaad967",
+   "name": "내수전통시장",
+   "sido": "충청북도",
+   "sigungu": "청주시 청원구",
+   "address": "충청북도 청주시 청원구 내수읍 내수로 726",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  },
+  {
+   "id": "m-440e57d1edc4",
+   "name": "오창전통시장",
+   "sido": "충청북도",
+   "sigungu": "청주시 청원구",
+   "address": "충청북도 청주시 청원구 오창읍 팔결로 715",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-8c8e17aaae31",
+   "name": "목행시장",
+   "sido": "충청북도",
+   "sigungu": "충주시",
+   "address": "충청북도 충주시 행정9길 35",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-0244c5582d75",
+   "name": "엄정내창시장",
+   "sido": "충청북도",
+   "sigungu": "충주시",
+   "address": "충청북도 충주시 엄정면 미내장터길 15",
+   "type": "상설장+3일장",
+   "days": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28
+   ],
+   "cycleText": "3·8일장",
+   "checking": false
+  },
+  {
+   "id": "m-1e6be720ef7d",
+   "name": "연원시장",
+   "sido": "충청북도",
+   "sigungu": "충주시",
+   "address": "충청북도 충주시 금곡로 31",
+   "type": "상설장+4일장",
+   "days": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    29
+   ],
+   "cycleText": "4·9일장",
+   "checking": false
+  },
+  {
+   "id": "m-dc68def173fc",
+   "name": "충주자유시장",
+   "sido": "충청북도",
+   "sigungu": "충주시",
+   "address": "충청북도 충주시 충인6길 16",
+   "type": "상설장+5일장",
+   "days": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "cycleText": "5·10일장",
+   "checking": false
+  }
+ ]
+}
