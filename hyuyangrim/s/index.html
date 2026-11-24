@@ -47,6 +47,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"A
 </div>
 <script>
 (function(){
+var NAME={'ft-0301':'신시도자연휴양림','ft-0243':'두타산 자연휴양림(평창)','ft-0115':'속리산 말티재자연휴양림'}; // the app's own spelling of the 3 places the table v4 spells differently (drop when table v5 is out)
 var APP={play:'https://play.google.com/store/apps/details?id=kr.co.codecat.hyuyangrim',ios:''};
 var $=function(i){return document.getElementById(i)};
 var P=new URLSearchParams(location.search);
@@ -70,8 +71,8 @@ if(/^[A-Za-z0-9_-]{3,40}$/.test(f||'')){
  var c=new AbortController();setTimeout(function(){c.abort()},10000);
  fetch('../rules.json',{signal:c.signal,credentials:'omit',referrerPolicy:'no-referrer'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){
   var v=(j.forests||[]).filter(function(x){return x&&x.venueId===f})[0];if(!v||!v.name){gone();return}
-  show('친구가 보낸 휴양림',String(v.name).slice(0,60),'',String(v.region||'').slice(0,20));
-  $('d').textContent='예약이 열리는 시각은 받은 글에 있어요. 앱에서 알림으로 받을 수 있어요.';
+  show('친구가 보낸 휴양림',String(NAME[v.venueId]||v.name).slice(0,60),'',String(v.region||'').slice(0,20));
+  $('d').textContent='앱에서 예약 열리는 시각을 알림으로 받을 수 있어요.';
  }).catch(function(){gone()});
 }else if(f){gone()}
 
