@@ -14,5 +14,5 @@ jobs:
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sigol-jangteo/s/icon.png hyuyangrim/s/icon.png
+          git add sigol-jangteo/s/icon.png hyuyangrim/s/icon.png sigol-jangteo/s/og.png hyuyangrim/s/og.png
           git diff --cached --quiet || git commit -m "chore(site): refresh app icons from the App Store" && git push
