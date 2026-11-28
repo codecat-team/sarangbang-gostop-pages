@@ -17,15 +17,12 @@ BASE, N = 185, 192
 POSES = {
     "front": ("front", "front"), "side": ("side", "side-r"), "sleep": ("sleep", "sleep-r"),
     "loaf": ("loaf-l", "loaf"), "back": ("walk", "walk"), "look": ("lookback-l", "lookback-r"),
-    "peek": ("peek", "peek"), "face": ("head", "head"),
 }
-FACE_W = 168  # the face crop is a close-up; scale it down so it reads as a cat head, not a mask
+# peek and face were dropped from the hero set (엄비 11-28): peek doubles the app-row cat, face is a 2x close-up
 
 
 def place(name):
     im = Image.open(SRC / f"{name}.png").convert("RGBA")
-    if im.width > N:
-        im = im.resize((FACE_W, FACE_W), Image.LANCZOS)
     box = im.split()[3].point(lambda v: 255 if v > 24 else 0).getbbox()
     c = Image.new("RGBA", (N, N), (0, 0, 0, 0))
     c.paste(im, (N // 2 - (box[0] + box[2]) // 2, BASE + 1 - box[3]), im)

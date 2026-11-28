@@ -89,8 +89,8 @@ footer img{width:34px;height:34px;display:block}
     <p class="lead">코드캣(codecat)은 누구나 쉽게 쓰는 앱과 도구를 만드는 작은 팀이에요.</p></div>
     <div class="ground" id="ground"><noscript><picture><source media="(max-width:600px)" srcset="cats/side-r.png"><img src="cats/side.png" alt="" width="192" height="192"></picture></noscript></div>
     <script>
-    // 가운데 고양이는 방문마다 치즈냥 가족 8포즈 중 하나 (저장·쿠키 없음). JS가 없으면 위 noscript의 앉은 고양이. #pose=이름 으로 고정해 볼 수 있음.
-    (function(){var P={front:1,side:0,sleep:0,loaf:0,back:1,look:0,peek:1,face:1},k=Object.keys(P),
+    // 가운데 고양이는 방문마다 치즈냥 가족 6포즈 중 하나 (저장·쿠키 없음). JS가 없으면 위 noscript의 앉은 고양이. #pose=이름 으로 고정해 볼 수 있음.
+    (function(){var P={front:1,side:0,sleep:0,loaf:0,back:1,look:0},k=Object.keys(P),
     m=(location.hash.match(/pose=(\w+)/)||[])[1],n=P.hasOwnProperty(m)?m:k[Math.floor(Math.random()*k.length)],
     f=function(q,s){return"cats/hero/"+q+"-"+(P[q]?"l":s)+".webp"},
     r=window.matchMedia&&matchMedia("(max-width:600px)").matches?"r":"l";
