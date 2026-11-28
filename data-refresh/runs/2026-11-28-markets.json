@@ -1,0 +1,14 @@
+{
+ "app": "markets",
+ "date": "2026-11-28",
+ "at": "2026-11-28T02:42:04.285Z",
+ "status": "stop",
+ "sourceRows": 1403,
+ "rows": null,
+ "added": [],
+ "removed": [],
+ "changed": [],
+ "published": false,
+ "stopReason": "the app's override rules no longer fit the source: removal target not found: 경상남도|양산시|양산남부시장상가",
+ "warnings": []
+}

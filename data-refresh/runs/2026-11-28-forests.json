@@ -1,0 +1,14 @@
+{
+ "app": "forests",
+ "date": "2026-11-28",
+ "at": "2026-11-28T02:42:07.097Z",
+ "status": "ok",
+ "sourceRows": 186,
+ "rows": 186,
+ "added": [],
+ "removed": [],
+ "changed": [],
+ "published": false,
+ "stopReason": null,
+ "warnings": []
+}
